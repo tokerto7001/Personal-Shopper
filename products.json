@@ -1,0 +1,1908 @@
+[
+  {
+    "id": 1,
+    "title": "Men's Merino Wool Turtleneck Sweater",
+    "description": "A luxuriously soft turtleneck knitted from 100% merino wool, offering natural temperature regulation for cold-weather comfort. The ribbed collar and cuffs add a refined touch, making it equally suited for office layering or weekend wear. Ideal for men who want warmth without bulk. A wardrobe staple from autumn through early spring.",
+    "category": "Men's Clothing",
+    "color": "Charcoal",
+    "price": 109.99,
+    "size": "L",
+    "tags": [
+      "sweater",
+      "wool",
+      "winter",
+      "layering",
+      "office",
+      "gift for him"
+    ],
+    "image": "https://picsum.photos/seed/1/400/500"
+  },
+  {
+    "id": 2,
+    "title": "Women's Floral Midi Wrap Dress",
+    "description": "A flowing midi wrap dress cut from lightweight viscose with a bold botanical print that transitions effortlessly from brunch to evening events. The adjustable waist tie flatters a wide range of body types, while flutter sleeves add a feminine flair. Perfect for summer weddings, garden parties, or vacation packing. Machine washable for everyday ease.",
+    "category": "Women's Clothing",
+    "color": "Sage Green Floral",
+    "price": 74.99,
+    "size": "M",
+    "tags": [
+      "dress",
+      "summer",
+      "wedding guest",
+      "vacation",
+      "floral",
+      "gift for her"
+    ],
+    "image": "https://picsum.photos/seed/2/400/500"
+  },
+  {
+    "id": 3,
+    "title": "Men's Slim Fit Stretch Chino Pants",
+    "description": "Crafted from a cotton-spandex blend for all-day comfort and a clean silhouette, these slim-fit chinos work as well on casual Fridays as on a weekend date night. The slight stretch eliminates the stiffness of traditional chinos, and the wrinkle-resistant finish keeps you looking sharp on the go. Available with a mid-rise waist for a modern cut.",
+    "category": "Men's Clothing",
+    "color": "Navy",
+    "price": 64.99,
+    "size": "32x30",
+    "tags": [
+      "pants",
+      "office",
+      "casual",
+      "stretch",
+      "date night",
+      "gift for him"
+    ],
+    "image": "https://picsum.photos/seed/3/400/500"
+  },
+  {
+    "id": 4,
+    "title": "Women's High-Waist Thermal Leggings",
+    "description": "Brushed on the inside for extra warmth, these high-waist thermal leggings are designed for cold outdoor runs and winter errands alike. The four-way stretch fabric moves with your body, and a hidden pocket in the waistband keeps your essentials secure. Great for layering under ski pants or wearing solo on milder winter days.",
+    "category": "Women's Clothing",
+    "color": "Black",
+    "price": 54.99,
+    "size": "S",
+    "tags": [
+      "leggings",
+      "winter",
+      "running",
+      "thermal",
+      "activewear",
+      "outdoor"
+    ],
+    "image": "https://picsum.photos/seed/4/400/500"
+  },
+  {
+    "id": 5,
+    "title": "Unisex Organic Cotton Hoodie",
+    "description": "Made from GOTS-certified organic cotton fleece, this relaxed-fit pullover hoodie is as kind to the planet as it is comfortable to wear. The kangaroo pocket and adjustable drawstring hood make it a go-to layer for everything from morning coffee runs to casual hangouts. A great ethical gift option for eco-conscious friends and family.",
+    "category": "Unisex Clothing",
+    "color": "Dusty Rose",
+    "price": 69.99,
+    "size": "M",
+    "tags": [
+      "hoodie",
+      "organic",
+      "sustainable",
+      "casual",
+      "unisex",
+      "gift",
+      "eco-friendly"
+    ],
+    "image": "https://picsum.photos/seed/5/400/500"
+  },
+  {
+    "id": 6,
+    "title": "Men's Linen Resort Shirt",
+    "description": "A breezy camp-collar shirt woven from 100% European linen — the fabric that breathes best in hot and humid climates. The relaxed fit and short sleeves make it the quintessential vacation shirt, stylish enough to wear untucked to a beachside dinner. Softens beautifully with each wash for lived-in comfort.",
+    "category": "Men's Clothing",
+    "color": "Sky Blue",
+    "price": 54.99,
+    "size": "L",
+    "tags": [
+      "shirt",
+      "linen",
+      "vacation",
+      "beach",
+      "summer",
+      "resort",
+      "gift for him"
+    ],
+    "image": "https://picsum.photos/seed/6/400/500"
+  },
+  {
+    "id": 7,
+    "title": "Women's Puffer Coat with Faux-Fur Hood",
+    "description": "Stay warm in style with this mid-length puffer coat filled with sustainable recycled down alternative. The detachable faux-fur trimmed hood elevates the look, while water-resistant shell fabric handles light snow and sleet. Cut to hit below the hip for extra coverage, making it ideal for winter commutes and snowy city days.",
+    "category": "Women's Clothing",
+    "color": "Camel",
+    "price": 189.99,
+    "size": "M",
+    "tags": [
+      "coat",
+      "winter",
+      "puffer",
+      "commute",
+      "snow",
+      "warm",
+      "gift for her"
+    ],
+    "image": "https://picsum.photos/seed/7/400/500"
+  },
+  {
+    "id": 8,
+    "title": "Men's Slim Fit Denim Jeans",
+    "description": "These slim-fit jeans are cut from rigid selvedge denim that develops a unique fade over time, rewarding regular wear with personalized character. The mid-rise waist pairs well with tucked shirts or casual tees, offering a versatile silhouette for everyday use. A serious investment piece for denim enthusiasts.",
+    "category": "Men's Clothing",
+    "color": "Raw Indigo",
+    "price": 119.99,
+    "size": "32x32",
+    "tags": [
+      "jeans",
+      "denim",
+      "selvedge",
+      "everyday",
+      "slim fit",
+      "casual"
+    ],
+    "image": "https://picsum.photos/seed/8/400/500"
+  },
+  {
+    "id": 9,
+    "title": "Women's Cashmere Cardigan",
+    "description": "Knitted from grade-A Mongolian cashmere, this open-front cardigan is the ultimate in lightweight luxury. Drape it over a blouse for a polished office look or layer it over pajamas for cozy evenings at home. The pearl button closures and refined ribbed hem give it a timeless quality that never goes out of style.",
+    "category": "Women's Clothing",
+    "color": "Ivory",
+    "price": 159.99,
+    "size": "S",
+    "tags": [
+      "cardigan",
+      "cashmere",
+      "luxury",
+      "office",
+      "cozy",
+      "gift for her",
+      "winter"
+    ],
+    "image": "https://picsum.photos/seed/9/400/500"
+  },
+  {
+    "id": 10,
+    "title": "Men's Technical Softshell Jacket",
+    "description": "Built for unpredictable weather, this softshell jacket combines a wind-resistant outer shell with a fleece-bonded interior for warmth without weight. Articulated elbows allow full range of motion for hiking and climbing, while underarm zip vents release excess heat during high-output activity. A reliable layer from spring showers to autumn trails.",
+    "category": "Men's Clothing",
+    "color": "Olive Green",
+    "price": 134.99,
+    "size": "XL",
+    "tags": [
+      "jacket",
+      "hiking",
+      "outdoor",
+      "softshell",
+      "windproof",
+      "trail",
+      "travel"
+    ],
+    "image": "https://picsum.photos/seed/10/400/500"
+  },
+  {
+    "id": 11,
+    "title": "Women's Ballet Flats",
+    "description": "Classic round-toe ballet flats crafted from genuine Italian leather with a cushioned footbed that makes them comfortable enough to wear all day. The elasticated topline ensures a snug fit that doesn't slip, and the slim profile tucks neatly under desk or dinner table. An effortless transition shoe from work to evening.",
+    "category": "Women's Footwear",
+    "color": "Nude Beige",
+    "price": 89.99,
+    "size": "7",
+    "tags": [
+      "flats",
+      "work",
+      "leather",
+      "comfortable",
+      "everyday",
+      "office",
+      "gift for her"
+    ],
+    "image": "https://picsum.photos/seed/11/400/500"
+  },
+  {
+    "id": 12,
+    "title": "Men's Waterproof Hiking Boots",
+    "description": "Gore-Tex lined hiking boots with a full-grain leather upper that keeps your feet dry on stream crossings and rainy trail days. The Vibram outsole delivers superior grip on wet rock and loose terrain, while the cushioned midsole absorbs impact on long descents. Stiff enough for backpacking, supportive enough for day hikes.",
+    "category": "Men's Footwear",
+    "color": "Brown/Tan",
+    "price": 179.99,
+    "size": "11",
+    "tags": [
+      "hiking boots",
+      "waterproof",
+      "Gore-Tex",
+      "trail",
+      "backpacking",
+      "outdoor",
+      "gift for him"
+    ],
+    "image": "https://picsum.photos/seed/12/400/500"
+  },
+  {
+    "id": 13,
+    "title": "Women's Chunky Platform Sneakers",
+    "description": "A streetwear-inspired platform sneaker with a 4cm chunky sole that adds height without sacrificing comfort. The faux-leather upper and lace-up front give it an urban edge, while the padded collar keeps ankles comfortable during long days of city exploration. A bold statement shoe for fashion-forward wardrobes.",
+    "category": "Women's Footwear",
+    "color": "White",
+    "price": 79.99,
+    "size": "8",
+    "tags": [
+      "sneakers",
+      "platform",
+      "streetwear",
+      "fashion",
+      "casual",
+      "gift for her"
+    ],
+    "image": "https://picsum.photos/seed/13/400/500"
+  },
+  {
+    "id": 14,
+    "title": "Men's Leather Oxford Dress Shoes",
+    "description": "Handcrafted full-grain leather Oxfords with a Goodyear welt construction for durability and resolability — a true investment in long-term footwear. The slim-toe last works with both modern and traditional suit cuts, and the leather sole develops a natural patina with wear. Best for formal occasions, interviews, and the office.",
+    "category": "Men's Footwear",
+    "color": "Dark Burgundy",
+    "price": 229.99,
+    "size": "10",
+    "tags": [
+      "dress shoes",
+      "oxford",
+      "leather",
+      "formal",
+      "office",
+      "wedding",
+      "gift for him"
+    ],
+    "image": "https://picsum.photos/seed/14/400/500"
+  },
+  {
+    "id": 15,
+    "title": "Unisex Slip-On Mule Sandals",
+    "description": "Minimalist leather mule sandals with a contoured cork footbed that molds to the shape of your foot over time for a custom-fit feel. The single wide strap makes them easy to slip on and off, ideal for beach trips, poolside lounging, and casual summer errands. Unisex sizing fits a broad range of foot shapes.",
+    "category": "Unisex Footwear",
+    "color": "Tan",
+    "price": 59.99,
+    "size": "9",
+    "tags": [
+      "sandals",
+      "summer",
+      "beach",
+      "casual",
+      "slip-on",
+      "unisex",
+      "vacation"
+    ],
+    "image": "https://picsum.photos/seed/15/400/500"
+  },
+  {
+    "id": 16,
+    "title": "Women's Block Heel Ankle Boots",
+    "description": "Sleek ankle boots with a 6cm block heel that provides stability without tipping into uncomfortable territory. The side zip makes them easy to put on and take off, and the pointed toe creates a sophisticated silhouette that pairs beautifully with midi skirts, trousers, and skinny jeans. A true autumn-winter wardrobe hero.",
+    "category": "Women's Footwear",
+    "color": "Black",
+    "price": 109.99,
+    "size": "8",
+    "tags": [
+      "ankle boots",
+      "heels",
+      "fall",
+      "winter",
+      "office",
+      "date night",
+      "gift for her"
+    ],
+    "image": "https://picsum.photos/seed/16/400/500"
+  },
+  {
+    "id": 17,
+    "title": "Men's Minimalist Running Shoes",
+    "description": "A featherlight road running shoe with a 4mm drop and a responsive foam midsole that encourages a natural midfoot strike. The engineered mesh upper provides targeted ventilation to keep feet cool during long summer runs, and the rubber outsole has strategic flex grooves for a smooth heel-to-toe transition.",
+    "category": "Men's Footwear",
+    "color": "Neon Yellow/Black",
+    "price": 124.99,
+    "size": "10.5",
+    "tags": [
+      "running shoes",
+      "road running",
+      "marathon",
+      "fitness",
+      "lightweight",
+      "gift for him"
+    ],
+    "image": "https://picsum.photos/seed/17/400/500"
+  },
+  {
+    "id": 18,
+    "title": "Genuine Leather Weekender Bag",
+    "description": "A spacious full-grain leather duffel designed for two-to-three day trips, featuring a roomy main compartment, a separate shoe bag, and a padded laptop sleeve. Reinforced handles and a detachable shoulder strap offer flexible carrying options. The leather develops a rich patina over years of use, making it better with age.",
+    "category": "Bags & Luggage",
+    "color": "Cognac Brown",
+    "price": 249.99,
+    "size": "40L",
+    "tags": [
+      "weekender",
+      "travel",
+      "leather",
+      "duffel",
+      "carry-on",
+      "gift for him",
+      "gift for her"
+    ],
+    "image": "https://picsum.photos/seed/18/400/500"
+  },
+  {
+    "id": 19,
+    "title": "Anti-Theft Slim Backpack",
+    "description": "A sleek commuter backpack with hidden zipper pockets facing the back panel to deter pickpockets, plus a USB-A charging port and dedicated 15.6-inch laptop compartment. The water-resistant shell handles light rain, and the trolley sleeve slides over carry-on handles for hassle-free airport navigation. Great for daily commuters and frequent travelers.",
+    "category": "Bags & Luggage",
+    "color": "Charcoal Grey",
+    "price": 84.99,
+    "size": "20L",
+    "tags": [
+      "backpack",
+      "commute",
+      "travel",
+      "anti-theft",
+      "laptop bag",
+      "gift for him",
+      "gift for her"
+    ],
+    "image": "https://picsum.photos/seed/19/400/500"
+  },
+  {
+    "id": 20,
+    "title": "Mini Quilted Chain Bag",
+    "description": "A compact quilted crossbody bag with a gold-tone chain strap that elevates any outfit from daytime casual to evening chic. Fits a phone, cards, keys, and a lip balm — just the essentials. The turn-lock closure adds a luxe touch, and the cotton quilted exterior is structured enough to hold its shape.",
+    "category": "Bags & Luggage",
+    "color": "Black",
+    "price": 69.99,
+    "size": "Small",
+    "tags": [
+      "crossbody",
+      "evening bag",
+      "chain bag",
+      "night out",
+      "compact",
+      "gift for her",
+      "fashion"
+    ],
+    "image": "https://picsum.photos/seed/20/400/500"
+  },
+  {
+    "id": 21,
+    "title": "Packable Travel Tote Bag",
+    "description": "An ultra-lightweight ripstop nylon tote that packs down into its own interior zip pocket for compact storage in a carry-on. Fully unfolded, it holds up to 30L — perfect as a beach bag, grocery haul, or day trip companion. Reinforced handles and a snap-close top keep contents secure.",
+    "category": "Bags & Luggage",
+    "color": "Teal",
+    "price": 29.99,
+    "size": "30L",
+    "tags": [
+      "tote",
+      "packable",
+      "travel",
+      "beach",
+      "lightweight",
+      "reusable",
+      "eco-friendly"
+    ],
+    "image": "https://picsum.photos/seed/21/400/500"
+  },
+  {
+    "id": 22,
+    "title": "Hardshell Spinner Suitcase",
+    "description": "A lightweight polycarbonate carry-on with four 360-degree spinner wheels that glide effortlessly across airport terminals. The interior features a cross-brace strap system and a mesh divider to keep clothes organized during transit. TSA-approved combo lock for security, and an expandable zipper adds 15% extra packing capacity.",
+    "category": "Bags & Luggage",
+    "color": "Midnight Blue",
+    "price": 199.99,
+    "size": "20-inch Carry-On",
+    "tags": [
+      "suitcase",
+      "carry-on",
+      "travel",
+      "spinner",
+      "hardshell",
+      "gift for traveler"
+    ],
+    "image": "https://picsum.photos/seed/22/400/500"
+  },
+  {
+    "id": 23,
+    "title": "Polarized Wraparound Sport Sunglasses",
+    "description": "Designed for cyclists, runners, and outdoor athletes, these wraparound sunglasses feature polarized lenses that eliminate road glare and interchangeable lens system for different light conditions. The rubberized nose pads and temple tips prevent slipping during high-intensity activity. UV400 protection guards against long days in the sun.",
+    "category": "Accessories",
+    "color": "Matte Black",
+    "price": 74.99,
+    "size": "One Size",
+    "tags": [
+      "sunglasses",
+      "sport",
+      "cycling",
+      "running",
+      "polarized",
+      "outdoor",
+      "UV protection"
+    ],
+    "image": "https://picsum.photos/seed/23/400/500"
+  },
+  {
+    "id": 24,
+    "title": "Silk Square Scarf",
+    "description": "A 90x90cm silk twill scarf featuring an original hand-drawn botanical print, perfect for tying in your hair, knotting around your bag, or draping loosely over the shoulders. The rolled hem is a hallmark of quality silk craftsmanship. A timeless accessory that works year-round and makes an elegant gift.",
+    "category": "Accessories",
+    "color": "Cobalt Blue/Gold",
+    "price": 84.99,
+    "size": "90x90 cm",
+    "tags": [
+      "scarf",
+      "silk",
+      "gift for her",
+      "fashion",
+      "luxury",
+      "botanical",
+      "versatile"
+    ],
+    "image": "https://picsum.photos/seed/24/400/500"
+  },
+  {
+    "id": 25,
+    "title": "Stainless Steel Chronograph Watch",
+    "description": "A bold chronograph watch with a scratch-resistant sapphire crystal, 100m water resistance, and a tachymeter bezel for measuring speed. The automatic movement is visible through the exhibition caseback — a conversation piece for watch enthusiasts. Compatible with standard 22mm watch straps for easy customization.",
+    "category": "Accessories",
+    "color": "Silver/Black",
+    "price": 349.99,
+    "size": "42mm",
+    "tags": [
+      "watch",
+      "chronograph",
+      "automatic",
+      "luxury",
+      "gift for him",
+      "statement piece",
+      "water resistant"
+    ],
+    "image": "https://picsum.photos/seed/25/400/500"
+  },
+  {
+    "id": 26,
+    "title": "Beaded Stackable Bracelet Set",
+    "description": "A curated set of five handcrafted bracelets combining natural gemstone beads — including tiger's eye, lapis lazuli, and clear quartz — with matte black lava stones. Each bracelet is elastic for easy on-and-off wear and designed to be stacked for a bohemian layered look. Makes a thoughtful and personal gift.",
+    "category": "Accessories",
+    "color": "Multistone",
+    "price": 34.99,
+    "size": "One Size",
+    "tags": [
+      "bracelet",
+      "gemstone",
+      "boho",
+      "gift for her",
+      "stackable",
+      "jewelry",
+      "handcrafted"
+    ],
+    "image": "https://picsum.photos/seed/26/400/500"
+  },
+  {
+    "id": 27,
+    "title": "Minimalist Gold Hoop Earrings",
+    "description": "Thin 14k gold-filled hoops with a sleek, lightweight design that transitions from boardroom to bar without skipping a beat. The click-close clasp stays secure during active wear, and the hypoallergenic posts are safe for sensitive ears. A modern essential for any jewelry collection.",
+    "category": "Accessories",
+    "color": "Gold",
+    "price": 44.99,
+    "size": "30mm Diameter",
+    "tags": [
+      "earrings",
+      "hoops",
+      "gold",
+      "minimalist",
+      "gift for her",
+      "jewelry",
+      "everyday",
+      "hypoallergenic"
+    ],
+    "image": "https://picsum.photos/seed/27/400/500"
+  },
+  {
+    "id": 28,
+    "title": "Slim Card Holder Wallet",
+    "description": "A front-pocket card holder machined from aircraft-grade aluminum with RFID-blocking technology to protect your contactless cards from electronic theft. Holds up to 8 cards and features a quick-access pull tab for your most-used card. A minimalist upgrade for those tired of bulky bifolds.",
+    "category": "Accessories",
+    "color": "Space Grey",
+    "price": 39.99,
+    "size": "One Size",
+    "tags": [
+      "wallet",
+      "RFID",
+      "minimalist",
+      "card holder",
+      "gift for him",
+      "gift for her",
+      "travel",
+      "tech"
+    ],
+    "image": "https://picsum.photos/seed/28/400/500"
+  },
+  {
+    "id": 29,
+    "title": "Leather Watch Roll",
+    "description": "A handstitched full-grain leather watch roll that stores and protects up to three watches during travel. Each slot is lined with soft suede to prevent scratches, and the roll closes with a leather tie for a refined presentation. An ideal gift for watch collectors who travel frequently.",
+    "category": "Accessories",
+    "color": "Dark Brown",
+    "price": 59.99,
+    "size": "Holds 3 Watches",
+    "tags": [
+      "watch roll",
+      "leather",
+      "travel",
+      "watch storage",
+      "gift for him",
+      "luxury",
+      "watch collector"
+    ],
+    "image": "https://picsum.photos/seed/29/400/500"
+  },
+  {
+    "id": 30,
+    "title": "Knit Fingerless Gloves",
+    "description": "Warm acrylic-blend fingerless gloves that keep your palms and wrists insulated while leaving fingertips free for touchscreen use. The ribbed cuff extends up the wrist for added coverage, and the chunky knit texture gives them a casual, artisan look. Perfect for commutes, markets, and outdoor autumn activities.",
+    "category": "Accessories",
+    "color": "Rust Orange",
+    "price": 19.99,
+    "size": "One Size",
+    "tags": [
+      "gloves",
+      "fingerless",
+      "winter",
+      "touchscreen",
+      "commute",
+      "gift",
+      "knit"
+    ],
+    "image": "https://picsum.photos/seed/30/400/500"
+  },
+  {
+    "id": 31,
+    "title": "Over-Ear Studio Headphones",
+    "description": "Professional-grade over-ear headphones with a flat, reference sound profile used by audio engineers and producers for accurate mixing and mastering. The circumaural cushions provide passive noise isolation, and the detachable cable works with both 3.5mm and 6.35mm jacks. Foldable for travel and studio transitions.",
+    "category": "Electronics",
+    "color": "Black",
+    "price": 199.99,
+    "size": "One Size",
+    "tags": [
+      "headphones",
+      "studio",
+      "music production",
+      "audiophile",
+      "mixing",
+      "gift for music lover"
+    ],
+    "image": "https://picsum.photos/seed/31/400/500"
+  },
+  {
+    "id": 32,
+    "title": "Open-Ear Bone Conduction Headphones",
+    "description": "Bone conduction technology sends sound through your cheekbones, keeping your ears open to ambient sounds — a safety game-changer for road running and urban cycling. IP67 waterproof rating makes them sweat and rain proof, and the lightweight titanium frame is barely noticeable after the first few minutes of wear.",
+    "category": "Electronics",
+    "color": "Black",
+    "price": 149.99,
+    "size": "One Size",
+    "tags": [
+      "headphones",
+      "running",
+      "cycling",
+      "bone conduction",
+      "safety",
+      "outdoor",
+      "sport",
+      "waterproof"
+    ],
+    "image": "https://picsum.photos/seed/32/400/500"
+  },
+  {
+    "id": 33,
+    "title": "Portable Projector",
+    "description": "A pico projector the size of a soda can that connects wirelessly to any smartphone or laptop and projects a 120-inch image onto any flat surface. Built-in stereo speakers and a 2-hour battery make it self-contained for backyard movie nights, presentations, or hostel viewing parties. HDMI and USB-C ports for wired connection.",
+    "category": "Electronics",
+    "color": "White",
+    "price": 179.99,
+    "size": "Pocket Size",
+    "tags": [
+      "projector",
+      "movie night",
+      "travel",
+      "presentation",
+      "wireless",
+      "home theater",
+      "gift"
+    ],
+    "image": "https://picsum.photos/seed/33/400/500"
+  },
+  {
+    "id": 34,
+    "title": "Wireless Charging Pad (3-in-1)",
+    "description": "Charges your phone, wireless earbuds, and smartwatch simultaneously on a single sleek pad, eliminating cable clutter on your nightstand. Compatible with all Qi-enabled devices and Apple MagSafe, with a 15W fast-charging mode for supported devices. LED indicator shows charging status without being too bright at night.",
+    "category": "Electronics",
+    "color": "White",
+    "price": 49.99,
+    "size": "One Size",
+    "tags": [
+      "wireless charger",
+      "charging",
+      "Qi",
+      "MagSafe",
+      "nightstand",
+      "desk",
+      "home",
+      "gift for tech lover"
+    ],
+    "image": "https://picsum.photos/seed/34/400/500"
+  },
+  {
+    "id": 35,
+    "title": "Smart LED Desk Lamp",
+    "description": "An adjustable LED desk lamp with five color temperature modes from warm amber to cool daylight and stepless dimming via touch control. The built-in USB-A charging port keeps your phone topped up while you work, and the flexible gooseneck arm directs light exactly where you need it. Ideal for home offices and student desks.",
+    "category": "Electronics",
+    "color": "Black",
+    "price": 44.99,
+    "size": "One Size",
+    "tags": [
+      "desk lamp",
+      "LED",
+      "home office",
+      "studying",
+      "dimmable",
+      "gift for student",
+      "work from home"
+    ],
+    "image": "https://picsum.photos/seed/35/400/500"
+  },
+  {
+    "id": 36,
+    "title": "Noise Machine for Sleep",
+    "description": "A compact white noise machine with 30 non-looping natural soundscapes — including rainfall, ocean waves, and forest ambience — to mask disruptive background noise and promote deeper, longer sleep. Timer settings and gradual volume fade make it easy to doze off naturally. A thoughtful gift for light sleepers and new parents.",
+    "category": "Electronics",
+    "color": "White",
+    "price": 39.99,
+    "size": "One Size",
+    "tags": [
+      "sleep",
+      "white noise",
+      "sound machine",
+      "relaxation",
+      "gift for new parent",
+      "gift for light sleeper",
+      "home"
+    ],
+    "image": "https://picsum.photos/seed/36/400/500"
+  },
+  {
+    "id": 37,
+    "title": "Digital Drawing Tablet",
+    "description": "A pressure-sensitive drawing tablet with 8192 levels of pen sensitivity and a tilt-recognition stylus that behaves like a natural brush or pencil in Photoshop, Procreate, and Clip Studio. The textured surface mimics the feel of paper, and the 10x6-inch active area is generous enough for detailed illustration work.",
+    "category": "Electronics",
+    "color": "Black",
+    "price": 89.99,
+    "size": "10x6 inch",
+    "tags": [
+      "drawing tablet",
+      "art",
+      "illustration",
+      "graphic design",
+      "digital art",
+      "gift for artist",
+      "creative"
+    ],
+    "image": "https://picsum.photos/seed/37/400/500"
+  },
+  {
+    "id": 38,
+    "title": "Compact Action Camera",
+    "description": "A rugged action camera that shoots 4K at 60fps with built-in image stabilization to keep footage smooth on mountain bikes, surfboards, and ski slopes. Waterproof to 10m without a housing, and compatible with a vast ecosystem of mounts. Battery lasts 90 minutes of continuous 4K recording.",
+    "category": "Electronics",
+    "color": "Black",
+    "price": 279.99,
+    "size": "One Size",
+    "tags": [
+      "action camera",
+      "4K",
+      "waterproof",
+      "outdoor",
+      "extreme sports",
+      "travel",
+      "gift for adventurer"
+    ],
+    "image": "https://picsum.photos/seed/38/400/500"
+  },
+  {
+    "id": 39,
+    "title": "E-Reader with Glare-Free Display",
+    "description": "A 7-inch e-reader with a warm-light front display that adjusts automatically from cool daylight to amber tones at night, reducing eye strain for bedtime reading. Holds up to 40,000 books, has 6-week battery life, and is IPX8 waterproof for reading in the bath or by the pool. The perfect gift for book lovers.",
+    "category": "Electronics",
+    "color": "Black",
+    "price": 139.99,
+    "size": "7-inch Display",
+    "tags": [
+      "e-reader",
+      "reading",
+      "books",
+      "gift for book lover",
+      "travel",
+      "waterproof",
+      "night reading"
+    ],
+    "image": "https://picsum.photos/seed/39/400/500"
+  },
+  {
+    "id": 40,
+    "title": "Portable Power Bank 20000mAh",
+    "description": "A high-capacity 20000mAh power bank with two USB-A ports and a 65W USB-C port that can fast-charge a laptop in addition to your phone. An LED display shows exact battery percentage, and the compact rectangular form factor fits in most jacket pockets. Charges itself via USB-C in 3 hours.",
+    "category": "Electronics",
+    "color": "Slate Grey",
+    "price": 59.99,
+    "size": "20000mAh",
+    "tags": [
+      "power bank",
+      "charging",
+      "travel",
+      "laptop",
+      "portable",
+      "gift for traveler",
+      "tech"
+    ],
+    "image": "https://picsum.photos/seed/40/400/500"
+  },
+  {
+    "id": 41,
+    "title": "Stoneware Dinner Plate Set",
+    "description": "A set of four hand-dipped stoneware dinner plates with a reactive glaze that gives each piece a subtly unique pattern — no two are exactly alike. Oven, microwave, and dishwasher safe, they're as practical as they are beautiful. Perfect for elevating everyday meals and hosting dinner parties.",
+    "category": "Home & Kitchen",
+    "color": "Ocean Blue",
+    "price": 64.99,
+    "size": "10.5-inch (Set of 4)",
+    "tags": [
+      "plates",
+      "dinnerware",
+      "stoneware",
+      "hosting",
+      "kitchen",
+      "gift for home",
+      "housewarming"
+    ],
+    "image": "https://picsum.photos/seed/41/400/500"
+  },
+  {
+    "id": 42,
+    "title": "Pour-Over Coffee Set",
+    "description": "A pour-over coffee dripper and matching carafe in heat-resistant borosilicate glass, designed to brew a clean, nuanced cup by allowing precise control over water flow rate. Includes a reusable stainless steel filter that eliminates paper waste. Gift-boxed for a polished presentation — a dream for specialty coffee enthusiasts.",
+    "category": "Home & Kitchen",
+    "color": "Clear/Black",
+    "price": 49.99,
+    "size": "600ml",
+    "tags": [
+      "coffee",
+      "pour over",
+      "coffee maker",
+      "gift for coffee lover",
+      "specialty coffee",
+      "kitchen",
+      "eco-friendly"
+    ],
+    "image": "https://picsum.photos/seed/42/400/500"
+  },
+  {
+    "id": 43,
+    "title": "Enameled Cast Iron Dutch Oven",
+    "description": "A heavyweight enameled cast iron Dutch oven that locks in moisture for perfect braises, stews, sourdough bread, and slow-cooked roasts. The enamel interior requires no seasoning and is easy to clean. Works on all hob types including induction, and transfers seamlessly from stovetop to a 260°C oven.",
+    "category": "Home & Kitchen",
+    "color": "Terracotta",
+    "price": 149.99,
+    "size": "5.5 Qt",
+    "tags": [
+      "dutch oven",
+      "cast iron",
+      "cooking",
+      "baking",
+      "bread",
+      "slow cook",
+      "housewarming",
+      "gift for cook"
+    ],
+    "image": "https://picsum.photos/seed/43/400/500"
+  },
+  {
+    "id": 44,
+    "title": "Marble and Acacia Wood Cheese Board",
+    "description": "A large two-tone serving board combining cool white marble — ideal for keeping cheeses at temperature — with a warm acacia wood section for crackers and charcuterie. Includes four stainless steel serving tools stored in a drawer underneath. A show-stopping centrepiece for entertaining.",
+    "category": "Home & Kitchen",
+    "color": "Marble/Natural Wood",
+    "price": 69.99,
+    "size": "18x12 inch",
+    "tags": [
+      "cheese board",
+      "entertaining",
+      "charcuterie",
+      "hosting",
+      "housewarming",
+      "gift for host",
+      "kitchen"
+    ],
+    "image": "https://picsum.photos/seed/44/400/500"
+  },
+  {
+    "id": 45,
+    "title": "Herb Garden Starter Kit",
+    "description": "Everything you need to grow fresh basil, cilantro, mint, and parsley on your windowsill: terracotta pots, organic seed packets, expanding coir compost discs, and a beginner's growing guide. A joyful gift for home cooks who love fresh ingredients and a touch of greenery in the kitchen.",
+    "category": "Home & Kitchen",
+    "color": "Terracotta/Green",
+    "price": 34.99,
+    "size": "Set of 4",
+    "tags": [
+      "herb garden",
+      "plants",
+      "kitchen garden",
+      "cooking",
+      "gift for cook",
+      "windowsill",
+      "beginner gardening"
+    ],
+    "image": "https://picsum.photos/seed/45/400/500"
+  },
+  {
+    "id": 46,
+    "title": "Vacuum-Sealed Airtight Canister Set",
+    "description": "A set of three borosilicate glass canisters with an airtight vacuum seal that keeps coffee, flour, sugar, and pantry staples fresher for longer. The transparent body lets you see contents at a glance, and bamboo lids add a clean aesthetic to any kitchen counter. Dishwasher safe for easy maintenance.",
+    "category": "Home & Kitchen",
+    "color": "Clear/Bamboo",
+    "price": 44.99,
+    "size": "Set of 3 (0.5L, 1L, 1.5L)",
+    "tags": [
+      "storage",
+      "kitchen",
+      "pantry",
+      "airtight",
+      "glass",
+      "eco-friendly",
+      "coffee storage",
+      "housewarming"
+    ],
+    "image": "https://picsum.photos/seed/46/400/500"
+  },
+  {
+    "id": 47,
+    "title": "Himalayan Salt Cooking Block",
+    "description": "A 20x30cm slab of Himalayan pink salt that can be heated on the grill or cooled in the freezer to cook, cure, or chill food directly on its surface. Imparts a mild, mineral-rich saltiness to proteins and vegetables. A dramatic cooking experience that doubles as a stunning serving platter.",
+    "category": "Home & Kitchen",
+    "color": "Pink",
+    "price": 39.99,
+    "size": "20x30 cm",
+    "tags": [
+      "cooking",
+      "grilling",
+      "salt block",
+      "gift for chef",
+      "BBQ",
+      "entertaining",
+      "unique gift"
+    ],
+    "image": "https://picsum.photos/seed/47/400/500"
+  },
+  {
+    "id": 48,
+    "title": "Weighted Blanket",
+    "description": "A 6.8kg weighted blanket filled with micro glass beads evenly distributed across 300 individual pockets to prevent shifting. The gentle deep-pressure stimulation mimics the calming sensation of a hug, helping to reduce anxiety and improve sleep quality. Cover is removable and machine washable in soft grey microfiber.",
+    "category": "Home & Bedroom",
+    "color": "Grey",
+    "price": 89.99,
+    "size": "48x72 inch / 6.8kg",
+    "tags": [
+      "blanket",
+      "sleep",
+      "anxiety",
+      "weighted",
+      "relaxation",
+      "gift",
+      "bedroom",
+      "self-care"
+    ],
+    "image": "https://picsum.photos/seed/48/400/500"
+  },
+  {
+    "id": 49,
+    "title": "Linen Duvet Cover Set",
+    "description": "A stone-washed linen duvet cover with two matching pillowcases, pre-washed for an instantly soft, lived-in feel without years of breaking in. Linen is twice as breathable as cotton, keeping you cool in summer and warm in winter. The palette is designed to complement neutral and earth-toned bedroom interiors.",
+    "category": "Home & Bedroom",
+    "color": "Warm Sand",
+    "price": 129.99,
+    "size": "Queen",
+    "tags": [
+      "bedding",
+      "linen",
+      "duvet cover",
+      "bedroom",
+      "breathable",
+      "housewarming",
+      "gift for home"
+    ],
+    "image": "https://picsum.photos/seed/49/400/500"
+  },
+  {
+    "id": 50,
+    "title": "Beeswax Pillar Candle Set",
+    "description": "A set of three 100% natural beeswax pillar candles in graduated heights, slow-burning with a subtle honey scent and a clean, non-toxic flame. Beeswax naturally purifies air by releasing negative ions, making these candles as functional as they are atmospheric. A beautiful centrepiece for dining tables and mantlepieces.",
+    "category": "Home Decor",
+    "color": "Natural Yellow",
+    "price": 29.99,
+    "size": "Set of 3",
+    "tags": [
+      "candles",
+      "beeswax",
+      "natural",
+      "home decor",
+      "gift",
+      "non-toxic",
+      "housewarming",
+      "eco-friendly"
+    ],
+    "image": "https://picsum.photos/seed/50/400/500"
+  },
+  {
+    "id": 51,
+    "title": "Macramé Wall Hanging",
+    "description": "A large hand-knotted macramé wall hanging made from unbleached natural cotton rope, featuring a geometric diamond pattern and long fringe detail. Hung from a natural wooden dowel, it adds warmth and bohemian texture to living rooms, bedrooms, and hallways. Each piece is handmade and carries slight variation.",
+    "category": "Home Decor",
+    "color": "Natural",
+    "price": 54.99,
+    "size": "60x90 cm",
+    "tags": [
+      "wall decor",
+      "macramé",
+      "boho",
+      "handmade",
+      "home decor",
+      "bedroom",
+      "housewarming",
+      "gift for home"
+    ],
+    "image": "https://picsum.photos/seed/51/400/500"
+  },
+  {
+    "id": 52,
+    "title": "Air-Purifying Potted Plant (Snake Plant)",
+    "description": "A mature Sansevieria trifasciata (snake plant) in a ceramic pot — one of NASA's top-rated air-purifying plants that removes formaldehyde and benzene from indoor air. Virtually indestructible, it thrives in low light and needs watering only once every 2–3 weeks, making it perfect for busy people or beginner plant parents.",
+    "category": "Home Decor",
+    "color": "Green/Yellow",
+    "price": 34.99,
+    "size": "Medium (30–40 cm tall)",
+    "tags": [
+      "plant",
+      "indoor plant",
+      "air purifying",
+      "low maintenance",
+      "gift for home",
+      "housewarming",
+      "office plant"
+    ],
+    "image": "https://picsum.photos/seed/52/400/500"
+  },
+  {
+    "id": 53,
+    "title": "Linen Table Runner",
+    "description": "A 180cm stone-washed linen table runner that adds a relaxed, organic elegance to dining tables. The slightly frayed raw edges and a muted palette complement both rustic farmhouse and minimalist contemporary table settings. Machine washable and naturally antibacterial.",
+    "category": "Home Decor",
+    "color": "Oatmeal",
+    "price": 27.99,
+    "size": "35x180 cm",
+    "tags": [
+      "table runner",
+      "linen",
+      "dining",
+      "entertaining",
+      "home decor",
+      "housewarming",
+      "gift for host"
+    ],
+    "image": "https://picsum.photos/seed/53/400/500"
+  },
+  {
+    "id": 54,
+    "title": "Rattan Fruit Basket",
+    "description": "A hand-woven rattan fruit basket with a wide, open weave that keeps fruit well-ventilated and prevents premature ripening. Natural, sustainably sourced rattan brings organic warmth to kitchen counters and dining tables. Lightweight yet durable, and doubles as a display bowl for decorative objects.",
+    "category": "Home Decor",
+    "color": "Natural Rattan",
+    "price": 22.99,
+    "size": "Medium",
+    "tags": [
+      "basket",
+      "kitchen",
+      "rattan",
+      "natural",
+      "sustainable",
+      "home decor",
+      "housewarming"
+    ],
+    "image": "https://picsum.photos/seed/54/400/500"
+  },
+  {
+    "id": 55,
+    "title": "Abstract Watercolor Art Print",
+    "description": "A high-resolution giclée print of an original abstract watercolor painting, printed on heavyweight 300gsm cotton rag paper for museum-quality longevity. The muted blue, terracotta, and ochre palette works beautifully in contemporary and eclectic interiors. Unframed and ready for custom framing.",
+    "category": "Home Decor",
+    "color": "Blue/Terracotta/Ochre",
+    "price": 44.99,
+    "size": "A2 (42x59 cm)",
+    "tags": [
+      "art print",
+      "wall art",
+      "abstract",
+      "watercolor",
+      "home decor",
+      "gift for art lover",
+      "housewarming"
+    ],
+    "image": "https://picsum.photos/seed/55/400/500"
+  },
+  {
+    "id": 56,
+    "title": "Running Belt with Water Bottles",
+    "description": "A minimalist running belt with two 250ml soft flasks, a large zip pocket for phone and keys, and a bungee cord system for bounce-free carrying. The 360-degree waistband is fully adjustable and stays in place even at full sprint. Ideal for marathons, trail runs, and half-day hikes.",
+    "category": "Sports & Fitness",
+    "color": "Black/Orange",
+    "price": 44.99,
+    "size": "Adjustable",
+    "tags": [
+      "running",
+      "marathon",
+      "trail running",
+      "hydration",
+      "race day",
+      "outdoor",
+      "fitness"
+    ],
+    "image": "https://picsum.photos/seed/56/400/500"
+  },
+  {
+    "id": 57,
+    "title": "Jump Rope with Ball Bearings",
+    "description": "A speed jump rope with a precision ball-bearing handle system that eliminates rope drag for high-speed double-unders used in CrossFit and jump rope fitness. The 3m cable is adjustable to any height, and the aluminum handles are machined with a knurled grip for non-slip performance.",
+    "category": "Sports & Fitness",
+    "color": "Red/Black",
+    "price": 29.99,
+    "size": "Adjustable",
+    "tags": [
+      "jump rope",
+      "crossfit",
+      "cardio",
+      "fitness",
+      "training",
+      "home gym",
+      "gift for fitness lover"
+    ],
+    "image": "https://picsum.photos/seed/57/400/500"
+  },
+  {
+    "id": 58,
+    "title": "Pull-Up and Dip Station",
+    "description": "A freestanding multi-grip pull-up and dip station that supports exercises for back, chest, triceps, and core with zero wall mounting required. The heavy-duty steel frame supports up to 150kg, and foam-padded handles protect palms during long sets. Assembles in under 20 minutes.",
+    "category": "Sports & Fitness",
+    "color": "Black",
+    "price": 189.99,
+    "size": "Freestanding",
+    "tags": [
+      "pull-up bar",
+      "dip station",
+      "home gym",
+      "strength training",
+      "bodyweight",
+      "fitness"
+    ],
+    "image": "https://picsum.photos/seed/58/400/500"
+  },
+  {
+    "id": 59,
+    "title": "Acupressure Mat and Pillow Set",
+    "description": "A bed of 6,210 acupressure points on a foam mat and neck pillow that stimulate blood flow, relieve muscle tension, and promote the release of endorphins for natural pain relief. Particularly effective for back pain, neck stiffness, and post-workout recovery. Use for 20 minutes daily to feel the difference.",
+    "category": "Sports & Fitness",
+    "color": "Purple",
+    "price": 49.99,
+    "size": "68x42 cm Mat",
+    "tags": [
+      "acupressure",
+      "recovery",
+      "back pain",
+      "relaxation",
+      "wellness",
+      "gift for fitness lover",
+      "self-care"
+    ],
+    "image": "https://picsum.photos/seed/59/400/500"
+  },
+  {
+    "id": 60,
+    "title": "Swim Goggles Anti-Fog Racing",
+    "description": "Low-profile racing goggles with a mirrored anti-fog lens and a hydrodynamic silicone gasket that seals without suction-cup pressure. The dual-buckle strap is adjustable for a precise fit, and the UV-protective tinting works for outdoor pool training in bright sunlight. Ideal for competitive swimmers and triathletes.",
+    "category": "Sports & Fitness",
+    "color": "Blue Mirrored",
+    "price": 24.99,
+    "size": "One Size",
+    "tags": [
+      "swim goggles",
+      "swimming",
+      "triathlon",
+      "racing",
+      "outdoor pool",
+      "sport",
+      "gift for swimmer"
+    ],
+    "image": "https://picsum.photos/seed/60/400/500"
+  },
+  {
+    "id": 61,
+    "title": "Pickleball Paddle Set",
+    "description": "A beginner-to-intermediate pickleball set including two graphite-faced paddles and four indoor/outdoor balls in a carry bag. The graphite surface generates spin and power, while the cushion grip reduces arm fatigue during long rallies. Pickleball-ready from the moment you unbox.",
+    "category": "Sports & Fitness",
+    "color": "Blue/Black",
+    "price": 69.99,
+    "size": "Set of 2 Paddles",
+    "tags": [
+      "pickleball",
+      "racket sport",
+      "outdoor",
+      "sport",
+      "beginner",
+      "gift for sports lover",
+      "family activity"
+    ],
+    "image": "https://picsum.photos/seed/61/400/500"
+  },
+  {
+    "id": 62,
+    "title": "Camping Hammock with Straps",
+    "description": "A double-wide 210T parachute nylon hammock that packs into its own stuff sack and weighs under 1kg. The 10m tree-friendly suspension straps are included and set up in minutes with no knots required. Holds up to 200kg and is equally at home in the backyard, at a festival, or deep in the backcountry.",
+    "category": "Outdoor & Camping",
+    "color": "Emerald Green",
+    "price": 54.99,
+    "size": "Double (150x270 cm)",
+    "tags": [
+      "hammock",
+      "camping",
+      "hiking",
+      "outdoor",
+      "backpacking",
+      "festival",
+      "gift for outdoorsy person"
+    ],
+    "image": "https://picsum.photos/seed/62/400/500"
+  },
+  {
+    "id": 63,
+    "title": "Ultralight Sleeping Bag (-5°C Rated)",
+    "description": "A mummy-style sleeping bag rated to -5°C with a 650-fill-power recycled down insulation that compresses to the size of a football. The draft collar and zipper baffle seal in warmth, while the YKK zipper runs the full length for ventilation in milder conditions. A serious piece of kit for three-season backpacking.",
+    "category": "Outdoor & Camping",
+    "color": "Orange/Grey",
+    "price": 199.99,
+    "size": "Regular (183 cm)",
+    "tags": [
+      "sleeping bag",
+      "camping",
+      "backpacking",
+      "ultralight",
+      "hiking",
+      "outdoor",
+      "gift for outdoorsy person"
+    ],
+    "image": "https://picsum.photos/seed/63/400/500"
+  },
+  {
+    "id": 64,
+    "title": "Headlamp with Red Light Mode",
+    "description": "A lightweight 400-lumen headlamp with a focused beam for long-range visibility and a diffuse flood mode for camp chores. The red light mode preserves night vision for star gazing and wildlife watching. IPX4 splash-proof rating handles rain, and the rechargeable battery replaces three AA cells.",
+    "category": "Outdoor & Camping",
+    "color": "Black/Red",
+    "price": 39.99,
+    "size": "One Size",
+    "tags": [
+      "headlamp",
+      "camping",
+      "hiking",
+      "trail running",
+      "night hike",
+      "outdoor",
+      "gift for outdoorsy person"
+    ],
+    "image": "https://picsum.photos/seed/64/400/500"
+  },
+  {
+    "id": 65,
+    "title": "Titanium Camping Cookset",
+    "description": "A two-piece titanium pot and pan set that nest together and weigh just 280g combined — barely noticeable in a pack but capable of boiling water for two in under four minutes on a camp stove. The matte finish minimizes hotspot burns, and the foldable handles make storage compact.",
+    "category": "Outdoor & Camping",
+    "color": "Titanium Grey",
+    "price": 79.99,
+    "size": "800ml Pot + 400ml Pan",
+    "tags": [
+      "camping cookware",
+      "backpacking",
+      "ultralight",
+      "titanium",
+      "camp cooking",
+      "outdoor",
+      "gift for outdoorsy person"
+    ],
+    "image": "https://picsum.photos/seed/65/400/500"
+  },
+  {
+    "id": 66,
+    "title": "Folding Trekking Poles",
+    "description": "Collapsible carbon-fibre trekking poles with a cork grip and a quick-lock system that adjusts from 64cm to 125cm in seconds. Carbon fibre absorbs trail vibration better than aluminium, reducing wrist and elbow fatigue on long descents. Weighs only 240g per pole. Packed length of 38cm fits in a daypack.",
+    "category": "Outdoor & Camping",
+    "color": "Black/Grey",
+    "price": 119.99,
+    "size": "Adjustable (64-125 cm)",
+    "tags": [
+      "trekking poles",
+      "hiking",
+      "backpacking",
+      "trail",
+      "carbon fibre",
+      "outdoor",
+      "gift for hiker"
+    ],
+    "image": "https://picsum.photos/seed/66/400/500"
+  },
+  {
+    "id": 67,
+    "title": "Soy Wax Candle Making Kit",
+    "description": "A complete DIY candle making kit with 1kg of soy wax flakes, 10 cotton wicks, fragrance oils in four scents, a melting pitcher, a thermometer, and a beginner's guide. Everything fits in a reusable cotton bag. A creative, therapeutic hobby that results in professional-quality candles you can gift or keep.",
+    "category": "Hobbies & Crafts",
+    "color": "White/Natural",
+    "price": 44.99,
+    "size": "Starter Kit",
+    "tags": [
+      "candle making",
+      "DIY",
+      "craft",
+      "hobby",
+      "gift for creative",
+      "soy candle",
+      "home activity"
+    ],
+    "image": "https://picsum.photos/seed/67/400/500"
+  },
+  {
+    "id": 68,
+    "title": "Watercolor Paint Set (Professional Grade)",
+    "description": "A 48-pan professional watercolor set using lightfast pigments that resist fading over decades. The half-pan format is compact enough for plein air painting outdoors, while the full-size mixing palette lid accommodates generous washes. Suitable for beginners who want to grow into their tools and professionals who demand consistency.",
+    "category": "Hobbies & Crafts",
+    "color": "Multicolor",
+    "price": 64.99,
+    "size": "48 Half-Pans",
+    "tags": [
+      "watercolor",
+      "painting",
+      "art supplies",
+      "gift for artist",
+      "creative",
+      "plein air",
+      "hobby"
+    ],
+    "image": "https://picsum.photos/seed/68/400/500"
+  },
+  {
+    "id": 69,
+    "title": "Leather Bookbinding Kit",
+    "description": "A traditional bookbinding kit with pre-cut book boards, book cloth, Japanese kozo paper, PVA glue, binding thread, needles, and a bone folder. Includes instructions for three classic binding styles: Coptic stitch, Japanese stab binding, and French link stitch. A meditative craft for book lovers and makers.",
+    "category": "Hobbies & Crafts",
+    "color": "Brown/Natural",
+    "price": 54.99,
+    "size": "One Size",
+    "tags": [
+      "bookbinding",
+      "craft",
+      "DIY",
+      "gift for book lover",
+      "stationery",
+      "hobby",
+      "handmade"
+    ],
+    "image": "https://picsum.photos/seed/69/400/500"
+  },
+  {
+    "id": 70,
+    "title": "Mechanical Pencil Set for Sketching",
+    "description": "A set of three professional mechanical pencils in 0.3mm, 0.5mm, and 0.7mm, with a knurled non-slip grip and a retractable tip guard for pocket safety. Includes 40 leads in HB, 2B, and 4B grades, plus a built-in eraser in each barrel. Preferred by architects, designers, and technical illustrators.",
+    "category": "Hobbies & Crafts",
+    "color": "Black",
+    "price": 34.99,
+    "size": "Set of 3",
+    "tags": [
+      "pencil",
+      "sketching",
+      "drawing",
+      "art supplies",
+      "gift for artist",
+      "design",
+      "architecture"
+    ],
+    "image": "https://picsum.photos/seed/70/400/500"
+  },
+  {
+    "id": 71,
+    "title": "Herb-Infused Olive Oil Gift Set",
+    "description": "A trio of cold-pressed extra virgin olive oils infused with rosemary and lemon, chilli and garlic, and black truffle — all bottled in elegant 250ml dark glass bottles that preserve freshness. Sourced from a family-run Sicilian estate. A luxurious culinary gift for home cooks and food lovers.",
+    "category": "Food & Gourmet",
+    "color": "Green/Gold",
+    "price": 54.99,
+    "size": "3x250ml",
+    "tags": [
+      "olive oil",
+      "gourmet food",
+      "cooking",
+      "gift for foodie",
+      "Italian",
+      "truffle",
+      "culinary gift"
+    ],
+    "image": "https://picsum.photos/seed/71/400/500"
+  },
+  {
+    "id": 72,
+    "title": "Single-Origin Hot Chocolate Mix",
+    "description": "A rich drinking chocolate made from single-origin Ecuadorian cacao nibs, with a smooth 72% dark chocolate base and a subtle natural sweetness. Just mix with hot milk for a deeply flavourful, less-sweet alternative to commercial cocoa. Comes in a resealable kraft bag. A sophisticated treat for chocolate connoisseurs.",
+    "category": "Food & Gourmet",
+    "color": "Dark Brown",
+    "price": 18.99,
+    "size": "250g",
+    "tags": [
+      "hot chocolate",
+      "chocolate",
+      "gourmet",
+      "gift for chocolate lover",
+      "winter drink",
+      "cozy",
+      "single origin"
+    ],
+    "image": "https://picsum.photos/seed/72/400/500"
+  },
+  {
+    "id": 73,
+    "title": "Japanese Matcha Ceremony Kit",
+    "description": "A traditional Japanese matcha set including ceremonial-grade stone-ground matcha from Uji, a bamboo chasen whisk, a ceramic chawan bowl, and a bamboo chashaku scoop. Brewing instructions included. A mindful ritual that produces a smoother, more nuanced cup than a standard latte-grade matcha.",
+    "category": "Food & Gourmet",
+    "color": "Celadon Green",
+    "price": 74.99,
+    "size": "Starter Set",
+    "tags": [
+      "matcha",
+      "tea",
+      "Japanese",
+      "gift for tea lover",
+      "mindfulness",
+      "ceremony",
+      "gourmet"
+    ],
+    "image": "https://picsum.photos/seed/73/400/500"
+  },
+  {
+    "id": 74,
+    "title": "Artisan Spice Blend Collection",
+    "description": "A set of six small-batch spice blends crafted by a Brooklyn spice house, covering global flavour profiles: Berbere (Ethiopian), Za'atar (Levantine), Furikake (Japanese), Chermoula (Moroccan), Smoked Cowboy (Texan BBQ), and Vadouvan (French-Indian curry). Packaged in numbered tins with recipe cards.",
+    "category": "Food & Gourmet",
+    "color": "Assorted",
+    "price": 49.99,
+    "size": "Set of 6 (30g each)",
+    "tags": [
+      "spices",
+      "cooking",
+      "gourmet",
+      "gift for foodie",
+      "global flavors",
+      "BBQ",
+      "curry",
+      "culinary gift"
+    ],
+    "image": "https://picsum.photos/seed/74/400/500"
+  },
+  {
+    "id": 75,
+    "title": "Sourdough Starter Baking Kit",
+    "description": "Everything needed to start a sourdough journey: a live dried sourdough starter culture, unbleached bread flour, a proofing basket with a linen liner, a bread lame (scoring tool), and a 48-page beginner's baking guide. The dried starter activates in 24 hours and produces bakery-quality loaves within a week.",
+    "category": "Food & Gourmet",
+    "color": "Natural/Cream",
+    "price": 59.99,
+    "size": "One Size",
+    "tags": [
+      "sourdough",
+      "baking",
+      "bread",
+      "gift for baker",
+      "home baking",
+      "fermentation",
+      "hobby"
+    ],
+    "image": "https://picsum.photos/seed/75/400/500"
+  },
+  {
+    "id": 76,
+    "title": "Vitamin C Brightening Serum",
+    "description": "A potent 15% L-ascorbic acid serum with stabilised vitamin C, ferulic acid, and vitamin E that works synergistically to fade hyperpigmentation, even skin tone, and protect against environmental damage. Dermatologist-tested and suitable for all skin types, including sensitive. Apply daily under SPF for maximum efficacy.",
+    "category": "Beauty & Personal Care",
+    "color": "Amber",
+    "price": 49.99,
+    "size": "30ml",
+    "tags": [
+      "skincare",
+      "serum",
+      "vitamin C",
+      "brightening",
+      "anti-aging",
+      "gift for her",
+      "beauty",
+      "self-care"
+    ],
+    "image": "https://picsum.photos/seed/76/400/500"
+  },
+  {
+    "id": 77,
+    "title": "Natural Deodorant Stick",
+    "description": "An aluminium-free natural deodorant formulated with magnesium, baking soda, and shea butter to neutralise odour without blocking sweat glands. The subtle clean lemon and sage scent is gentle and unisex. Cruelty-free, plastic-free packaging, and vegan-certified — effective from morning to early evening.",
+    "category": "Beauty & Personal Care",
+    "color": "White",
+    "price": 14.99,
+    "size": "75g",
+    "tags": [
+      "deodorant",
+      "natural",
+      "aluminium-free",
+      "vegan",
+      "eco-friendly",
+      "unisex",
+      "self-care",
+      "plastic-free"
+    ],
+    "image": "https://picsum.photos/seed/77/400/500"
+  },
+  {
+    "id": 78,
+    "title": "Facial Gua Sha Stone",
+    "description": "A hand-polished rose quartz gua sha tool shaped for the contours of the face, designed to depuff, improve lymphatic drainage, and release facial tension when used with a facial oil. The cool stone naturally helps to calm redness and puffiness. A ritual tool that turns your skincare routine into a spa-like experience.",
+    "category": "Beauty & Personal Care",
+    "color": "Pink",
+    "price": 24.99,
+    "size": "One Size",
+    "tags": [
+      "gua sha",
+      "skincare",
+      "facial",
+      "rose quartz",
+      "wellness",
+      "gift for her",
+      "self-care",
+      "beauty ritual"
+    ],
+    "image": "https://picsum.photos/seed/78/400/500"
+  },
+  {
+    "id": 79,
+    "title": "Bamboo Electric Toothbrush",
+    "description": "An eco-conscious electric toothbrush with a biodegradable bamboo handle and a sonic motor that delivers 31,000 brush strokes per minute for a professional-level clean. The replaceable brush head uses plant-based bristles, and a single charge lasts 30 days. Comes in a compostable box.",
+    "category": "Beauty & Personal Care",
+    "color": "Natural Bamboo",
+    "price": 59.99,
+    "size": "One Size",
+    "tags": [
+      "toothbrush",
+      "electric",
+      "bamboo",
+      "eco-friendly",
+      "oral care",
+      "sustainable",
+      "gift",
+      "self-care"
+    ],
+    "image": "https://picsum.photos/seed/79/400/500"
+  },
+  {
+    "id": 80,
+    "title": "Aromatherapy Essential Oil Set",
+    "description": "A curated set of 10 pure essential oils — lavender, eucalyptus, peppermint, tea tree, lemon, frankincense, rosemary, bergamot, cedarwood, and ylang-ylang — each in a 10ml dark glass bottle with dropper. Suitable for diffusing, blending, and massage when diluted with a carrier oil. A complete aromatherapy starter collection.",
+    "category": "Beauty & Personal Care",
+    "color": "Assorted",
+    "price": 34.99,
+    "size": "Set of 10 (10ml each)",
+    "tags": [
+      "essential oils",
+      "aromatherapy",
+      "wellness",
+      "gift for wellness lover",
+      "diffuser",
+      "relaxation",
+      "self-care"
+    ],
+    "image": "https://picsum.photos/seed/80/400/500"
+  },
+  {
+    "id": 81,
+    "title": "Pet Orthopedic Dog Bed",
+    "description": "A memory foam orthopedic dog bed with a bolstered rim that supports a dog's natural sleeping position and alleviates pressure on joints — ideal for senior dogs or breeds prone to hip dysplasia. The waterproof liner protects the foam core, and the plush velvet cover is removable and machine washable.",
+    "category": "Pet Supplies",
+    "color": "Charcoal Grey",
+    "price": 89.99,
+    "size": "Large (90x70 cm)",
+    "tags": [
+      "dog bed",
+      "orthopedic",
+      "senior dog",
+      "joint support",
+      "pet",
+      "gift for dog owner",
+      "washable"
+    ],
+    "image": "https://picsum.photos/seed/81/400/500"
+  },
+  {
+    "id": 82,
+    "title": "Interactive Cat Feather Wand Toy",
+    "description": "A 90cm telescoping feather wand that mimics the erratic movement of real birds, triggering a cat's hunting instinct for exercise and mental stimulation. The detachable feather head can be replaced with six included attachments, extending the toy's novelty. Great for bonding between cats and their owners.",
+    "category": "Pet Supplies",
+    "color": "Multicolor",
+    "price": 14.99,
+    "size": "One Size",
+    "tags": [
+      "cat toy",
+      "feather wand",
+      "interactive",
+      "cat exercise",
+      "pet",
+      "gift for cat owner",
+      "bonding"
+    ],
+    "image": "https://picsum.photos/seed/82/400/500"
+  },
+  {
+    "id": 83,
+    "title": "Stainless Steel Slow Feeder Bowl",
+    "description": "A stainless steel slow feeder bowl with a raised spiral maze pattern that extends mealtime by 5–10x, reducing the risk of bloat, regurgitation, and gulping in fast-eating dogs. Non-toxic, dishwasher safe, and weighted at the base to prevent tipping. A simple but impactful upgrade for any dog's feeding routine.",
+    "category": "Pet Supplies",
+    "color": "Silver",
+    "price": 22.99,
+    "size": "Medium (600ml)",
+    "tags": [
+      "dog bowl",
+      "slow feeder",
+      "pet health",
+      "stainless steel",
+      "gift for dog owner",
+      "bloat prevention"
+    ],
+    "image": "https://picsum.photos/seed/83/400/500"
+  },
+  {
+    "id": 84,
+    "title": "Adjustable Pet Backpack Carrier",
+    "description": "A ventilated pet backpack that carries cats and small dogs up to 8kg in comfort, with an expandable mesh bubble window that gives pets an unobstructed view. The padded shoulder straps and back panel make it comfortable for owners on long hikes or city walks. Airline cabin approved for most major carriers.",
+    "category": "Pet Supplies",
+    "color": "Black",
+    "price": 79.99,
+    "size": "Up to 8kg Pet",
+    "tags": [
+      "pet carrier",
+      "cat backpack",
+      "hiking with pet",
+      "travel",
+      "airline approved",
+      "gift for pet owner"
+    ],
+    "image": "https://picsum.photos/seed/84/400/500"
+  },
+  {
+    "id": 85,
+    "title": "1000-Piece Illustrated World Map Puzzle",
+    "description": "A beautifully illustrated 1000-piece jigsaw puzzle featuring a vintage-style world map with cartographic details, sea creatures, and explorer ships. The matte surface reduces glare, and the thick interlocking pieces won't bend or split during assembly. Finished size is 68x48cm — frameable as wall art.",
+    "category": "Toys & Games",
+    "color": "Multicolor",
+    "price": 29.99,
+    "size": "1000 Pieces / 68x48 cm",
+    "tags": [
+      "puzzle",
+      "jigsaw",
+      "world map",
+      "gift for traveler",
+      "family activity",
+      "home activity",
+      "frameable"
+    ],
+    "image": "https://picsum.photos/seed/85/400/500"
+  },
+  {
+    "id": 86,
+    "title": "Strategy Card Game (For Adults)",
+    "description": "A fast-paced strategy card game for 2–6 players in which you build trade routes, sabotage rivals, and race to control ancient markets — playable in 45 minutes. Includes 180 illustrated cards, wooden resource tokens, and rulebook in six languages. Consistently rated one of the best gateway games for non-gamers.",
+    "category": "Toys & Games",
+    "color": "Multicolor",
+    "price": 34.99,
+    "size": "2-6 Players / Age 14+",
+    "tags": [
+      "card game",
+      "strategy",
+      "board game",
+      "gift for game lover",
+      "family",
+      "group activity",
+      "adult game"
+    ],
+    "image": "https://picsum.photos/seed/86/400/500"
+  },
+  {
+    "id": 87,
+    "title": "Vintage-Style Chess Set",
+    "description": "A weighted resin chess set in a classic Staunton design with a felted base on each piece to prevent scratching, and a roll-up leather board for travel. The pieces are sized to FIDE regulation tournament standard. A handsome set for casual players and serious study alike.",
+    "category": "Toys & Games",
+    "color": "Black/White",
+    "price": 59.99,
+    "size": "King Height: 10 cm",
+    "tags": [
+      "chess",
+      "board game",
+      "strategy",
+      "gift for chess player",
+      "travel chess",
+      "classic game",
+      "gift for intellectual"
+    ],
+    "image": "https://picsum.photos/seed/87/400/500"
+  },
+  {
+    "id": 88,
+    "title": "Subscription Journal with Prompts",
+    "description": "A 90-day guided journal with daily prompts spanning gratitude, goal-setting, emotional reflection, and creative thinking — structured to build a consistent morning journalling habit over three months. The lay-flat binding and acid-free paper handle fountain pens and fine-liners without bleed-through.",
+    "category": "Books & Stationery",
+    "color": "Forest Green",
+    "price": 27.99,
+    "size": "A5",
+    "tags": [
+      "journal",
+      "mindfulness",
+      "gratitude",
+      "self-improvement",
+      "gift for her",
+      "gift for him",
+      "stationery",
+      "morning routine"
+    ],
+    "image": "https://picsum.photos/seed/88/400/500"
+  },
+  {
+    "id": 89,
+    "title": "Fountain Pen with Converter",
+    "description": "A medium-nib stainless steel fountain pen with a resin barrel, a brass converter for bottled ink, and a snap cap for quick access. The nib is tuned for smooth, effortless writing that transforms note-taking into a pleasure. Compatible with standard international ink cartridges and most bottled inks.",
+    "category": "Books & Stationery",
+    "color": "Midnight Blue",
+    "price": 44.99,
+    "size": "Medium Nib",
+    "tags": [
+      "fountain pen",
+      "pen",
+      "writing",
+      "stationery",
+      "gift for writer",
+      "journaling",
+      "gift for student"
+    ],
+    "image": "https://picsum.photos/seed/89/400/500"
+  },
+  {
+    "id": 90,
+    "title": "Desk Organizer Set",
+    "description": "A five-piece desk organizer set in powder-coated steel with a letter tray, pen cup, sticky note holder, phone stand, and cable clip holder. The modular design lets you arrange pieces to fit your workspace, and the matte finish works with both monochrome and warm-toned desk setups.",
+    "category": "Books & Stationery",
+    "color": "Blush Pink",
+    "price": 49.99,
+    "size": "Set of 5",
+    "tags": [
+      "desk organizer",
+      "office",
+      "stationery",
+      "work from home",
+      "home office",
+      "gift for student",
+      "gift for professional"
+    ],
+    "image": "https://picsum.photos/seed/90/400/500"
+  },
+  {
+    "id": 91,
+    "title": "Language Learning Flashcard Set",
+    "description": "A set of 500 laminated vocabulary flashcards for Spanish learners at A1–B1 level, organized by theme (food, travel, emotions, business, daily life) with a phonetic pronunciation guide and example sentence on each card. Compatible with the Leitner spaced-repetition box included in the set.",
+    "category": "Books & Stationery",
+    "color": "Yellow/White",
+    "price": 24.99,
+    "size": "500 Cards",
+    "tags": [
+      "language learning",
+      "Spanish",
+      "flashcards",
+      "study",
+      "gift for student",
+      "travel",
+      "education"
+    ],
+    "image": "https://picsum.photos/seed/91/400/500"
+  },
+  {
+    "id": 92,
+    "title": "Standing Phone Mount for Desk",
+    "description": "An adjustable aluminum phone stand with a 360-degree rotating arm that works for video calls, recipe reading, and mobile gaming alike. The weighted base keeps it firmly in place, and the anodized finish matches most laptop and MacBook aesthetics. Folds flat for storage or travel.",
+    "category": "Home Office",
+    "color": "Space Grey",
+    "price": 29.99,
+    "size": "Adjustable",
+    "tags": [
+      "phone stand",
+      "desk",
+      "video call",
+      "home office",
+      "work from home",
+      "gift for professional",
+      "tech accessory"
+    ],
+    "image": "https://picsum.photos/seed/92/400/500"
+  },
+  {
+    "id": 93,
+    "title": "Monitor Riser with Storage Shelf",
+    "description": "A bamboo monitor riser that elevates your screen to an ergonomic eye-level height while providing a wide storage shelf underneath for a keyboard, notebooks, or a small plant. Two USB-A ports on the front pass-through power to connected devices without adding cables to your setup.",
+    "category": "Home Office",
+    "color": "Natural Bamboo",
+    "price": 54.99,
+    "size": "60x25 cm",
+    "tags": [
+      "monitor stand",
+      "ergonomic",
+      "home office",
+      "desk setup",
+      "bamboo",
+      "work from home",
+      "gift for professional"
+    ],
+    "image": "https://picsum.photos/seed/93/400/500"
+  },
+  {
+    "id": 94,
+    "title": "Posture Corrector Brace",
+    "description": "A figure-8 posture corrector brace worn under or over clothing that gently pulls the shoulders back to counteract the rounded posture caused by prolonged desk sitting. Adjustable straps fit chest sizes 70–110cm, and the breathable mesh panel prevents overheating during long working hours. Wear for 30–60 minutes daily to build muscle memory.",
+    "category": "Health & Wellness",
+    "color": "Black",
+    "price": 29.99,
+    "size": "Adjustable (70-110 cm chest)",
+    "tags": [
+      "posture",
+      "back pain",
+      "office",
+      "desk worker",
+      "health",
+      "ergonomic",
+      "gift for desk worker"
+    ],
+    "image": "https://picsum.photos/seed/94/400/500"
+  },
+  {
+    "id": 95,
+    "title": "Massage Gun Percussive Therapy Device",
+    "description": "A handheld percussive massage gun with six interchangeable head attachments and five speed settings ranging from a gentle 1,200 to a deep-tissue 3,200 percussions per minute. The brushless motor runs near-silently, and the battery lasts 5 hours per charge. Effective for pre-workout warm-up and post-workout recovery.",
+    "category": "Health & Wellness",
+    "color": "Black",
+    "price": 119.99,
+    "size": "One Size",
+    "tags": [
+      "massage gun",
+      "recovery",
+      "muscle pain",
+      "fitness",
+      "physical therapy",
+      "gift for athlete",
+      "self-care"
+    ],
+    "image": "https://picsum.photos/seed/95/400/500"
+  },
+  {
+    "id": 96,
+    "title": "Himalayan Pink Salt Lamp",
+    "description": "A natural Himalayan pink salt crystal lamp, hand-carved and fitted with a warm amber bulb that casts a warm, soft glow ideal for bedrooms, meditation spaces, and reading nooks. Often used for mood lighting and creating a calm, grounding atmosphere. Each lamp is unique due to the natural variation in the salt crystal.",
+    "category": "Home Decor",
+    "color": "Pink/Amber",
+    "price": 34.99,
+    "size": "Medium (2–3 kg)",
+    "tags": [
+      "salt lamp",
+      "ambient light",
+      "bedroom",
+      "wellness",
+      "meditation",
+      "relaxation",
+      "gift for home"
+    ],
+    "image": "https://picsum.photos/seed/96/400/500"
+  },
+  {
+    "id": 97,
+    "title": "Personalized Star Map Print",
+    "description": "A high-quality giclée print of the exact night sky on any date and location you choose — perfect for commemorating a birthday, anniversary, or the night you met. Printed on heavyweight matte paper and customised with names and a personal message beneath the star chart. Ships in a protective tube.",
+    "category": "Gifts & Novelty",
+    "color": "Navy/Gold",
+    "price": 49.99,
+    "size": "A3 (30x42 cm)",
+    "tags": [
+      "star map",
+      "personalized gift",
+      "anniversary",
+      "birthday",
+      "romantic gift",
+      "wall art",
+      "custom",
+      "gift for couple"
+    ],
+    "image": "https://picsum.photos/seed/97/400/500"
+  },
+  {
+    "id": 98,
+    "title": "Custom Illustration Portrait",
+    "description": "Commission a hand-drawn digital portrait in a modern line-art style from a photo you provide — ideal for couples, families, and pet portraits. Delivered as a high-resolution digital file within 5 business days, print-ready up to A2 size. A deeply personal and unique gift for any occasion.",
+    "category": "Gifts & Novelty",
+    "color": "Custom",
+    "price": 79.99,
+    "size": "Digital (Printable to A2)",
+    "tags": [
+      "custom gift",
+      "portrait",
+      "personalized",
+      "couples gift",
+      "family gift",
+      "pet portrait",
+      "digital art",
+      "anniversary"
+    ],
+    "image": "https://picsum.photos/seed/98/400/500"
+  },
+  {
+    "id": 99,
+    "title": "Solar-Powered Garden Lanterns (Set of 4)",
+    "description": "A set of four decorative solar-powered garden lanterns with warm LED flame-effect bulbs that automatically turn on at dusk and off at dawn. The weather-resistant powder-coated steel frame withstands rain and wind, making them a maintenance-free way to illuminate pathways, patios, and garden borders.",
+    "category": "Garden & Outdoor",
+    "color": "Black/Gold",
+    "price": 54.99,
+    "size": "Set of 4 (H: 45 cm each)",
+    "tags": [
+      "garden lights",
+      "solar",
+      "outdoor lighting",
+      "patio",
+      "garden decor",
+      "eco-friendly",
+      "gift for gardener"
+    ],
+    "image": "https://picsum.photos/seed/99/400/500"
+  },
+  {
+    "id": 100,
+    "title": "Seed Bomb Gardening Gift Box",
+    "description": "A gift box of 20 handmade seed bombs containing a mix of wildflower, herb, and vegetable seeds — just toss them in a sunny spot and water. Each seed bomb is made from clay, compost, and organic seeds. A joyful, beginner-friendly gift that supports pollinators and brings colour to any outdoor space.",
+    "category": "Garden & Outdoor",
+    "color": "Multicolor",
+    "price": 22.99,
+    "size": "20 Seed Bombs",
+    "tags": [
+      "gardening",
+      "seeds",
+      "wildflowers",
+      "gift for gardener",
+      "eco-friendly",
+      "pollinators",
+      "beginner garden",
+      "nature"
+    ],
+    "image": "https://picsum.photos/seed/100/400/500"
+  }
+]
