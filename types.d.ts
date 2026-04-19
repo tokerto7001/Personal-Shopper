@@ -13,3 +13,14 @@ export interface IProduct {
 export interface IProductWithVector extends IProduct {
   vector: number[];
 }
+
+export interface ISession {
+  messages: ChatCompletionMessageParam[];
+  summary: string;
+}
+
+export interface IIntentRecognizerResponse {
+  filters: Record<string, string | number | string[]>;
+  needs_clarification: boolean;
+  clarifying_question: string | null;
+}

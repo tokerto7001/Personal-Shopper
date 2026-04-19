@@ -1,4 +1,5 @@
 import { OpenAI } from 'openai';
+import { ChatCompletionMessageParam } from 'openai/resources/chat/completions';
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
@@ -10,4 +11,12 @@ export const createEmbedding = async (inputs: string[]) => {
     input: inputs,
   });
   return response.data.sort((a, b) => a.index - b.index).map((item) => item.embedding);
+};
+
+export const createChatCompletion = async (model: string, messages: ChatCompletionMessageParam[]) => {
+  const response = await openai.chat.completions.create({
+    model,
+    messages,
+  });
+  return response.choices[0].message.content;
 };
