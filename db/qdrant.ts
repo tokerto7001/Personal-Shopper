@@ -32,4 +32,16 @@ const insertProductsWithVector = async (products: IProductWithVector[]) => {
   });
 };
 
-export { createCollection, qdrantClient, insertProductsWithVector };
+const searchProducts = async (vector: number[], filters: Record<string, string | number | string[]>) => {
+  const response = await qdrantClient.query('products', {
+    query: vector,
+    ...(Object.keys(filters).length && { filter: filters }),
+    limit: 10,
+    with_payload: true,
+    score_threshold: 0.40,
+  })
+  console.log('searchProducts response', response);
+  return response.points;
+};
+
+export { createCollection, qdrantClient, insertProductsWithVector, searchProducts };

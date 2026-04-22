@@ -1,7 +1,7 @@
 import { ChatCompletionMessageParam } from "openai/resources/chat/completions";
-import { createChatCompletion } from "..";
+import { createChatCompletion, createEmbedding } from "..";
 import { orchestratorPrompt, orchestratorPromptWithSession } from "./prompts";
-import { getSession, setSession } from "../../db";
+import { getSession, searchProducts, setSession } from "../../db";
 import { randomUUID } from 'crypto';
 import { memorizationAgent } from "./memory";
 import { ISession } from "../../types";
@@ -22,7 +22,7 @@ export const orchestrator = async (question: string, sessionId?: string) => {
       role: 'system',
       content: systemPrompt,
     },
-    ...(session ? session.messages : []),
+    ...(session ? session.messages.filter(message => message.role !== 'user') : []),
     {
       role: 'user',
       content: question,
@@ -34,39 +34,88 @@ export const orchestrator = async (question: string, sessionId?: string) => {
     content: question,
   });
 
-  const response = await createChatCompletion('gpt-4o-mini', messages);
+  // orchestrator response
+  const response = await createChatCompletion('gpt-4o-mini', messages, true);
 
+  console.log('orchestrator response', response, messages);
   try {
     const result = JSON.parse(response as string);
-    if (!result.message) {
-      throw new Error('Message is required');
+    if (!result.message && result.call_intent_recognizer == undefined) {
+      throw new Error('Message or call intent recognizer is required');
     }
     if (typeof result.call_intent_recognizer !== 'boolean') {
       throw new Error('Call intent recognizer must be a boolean');
     }
 
+    // if the user does not have a shopping intent, reply directly to the user
     if (!result.call_intent_recognizer) {
       messageHistory.push({
         role: 'assistant',
         content: result.message,
       });
+      
       const { summary, messageHistory: newMessageHistory } = await memorizationAgent(session, messageHistory);
-
       await setSession(userSessionId!, { messages: newMessageHistory, summary });
-      return { message: result.message, sessionId: userSessionId };
+
+      return { message: result.message, sessionId: userSessionId }; // return sessionId for further talk in the same session
     } else {
-      const { filters, needs_clarification, clarifying_question} = await intentRecognizer(question, messageHistory);
+      // if the user has a shopping intent, call the intent recognizer agent
+      const { filters, needs_clarification, clarifying_question, search_query} = await intentRecognizer(question, messageHistory);
+      // if the user needs clarification, ask the clarifying question
       if(needs_clarification) {
         messageHistory.push({
           role: 'assistant',
           content: clarifying_question,
         });
-        await memorizationAgent(session, messageHistory);
-        await setSession(userSessionId!, { messages: messageHistory, summary: session?.summary || '' });
+        const { summary, messageHistory: newMessageHistory } = await memorizationAgent(session, messageHistory);
+        await setSession(userSessionId!, { messages: newMessageHistory, summary });
         return { message: clarifying_question, sessionId: userSessionId };
       } else {
         // filter products according to filters
-        return { filters, sessionId: userSessionId };
+        const queryVector = await createEmbedding([search_query as string]);
+        const qdrantFilters: Record<string, string | number | string[]> = {};
+        // convert filters to qdrant filters
+        Object.entries(filters).forEach(([field, value]) => {
+          if(Array.isArray(value) && value.length) {
+            if(value.length > 1) {
+              if(!qdrantFilters.should) {
+                qdrantFilters.should = [];
+              }
+              value.forEach((v) => {
+                (qdrantFilters.should as unknown as { key: string; match: { value: string } }[]).push({
+                  key: field,
+                  match: {
+                    value: v,
+                  }
+                })
+              })
+            } else {
+              if(!qdrantFilters.must) {
+                qdrantFilters.must = [];
+              }
+             (qdrantFilters.must as unknown as { key: string; match: { value: string } }[]).push({
+              key: field,
+              match: {
+                value: value[0],
+              }
+             })
+            }
+          }
+        });
+
+        console.dir(qdrantFilters, { depth: null });
+        const products = await searchProducts(queryVector[0], qdrantFilters);
+        if(!products.length) {
+          messageHistory.push({
+            role: 'assistant',
+            content: 'No products found',
+          });
+          
+          const { summary, messageHistory: newMessageHistory } = await memorizationAgent(session, messageHistory);
+          await setSession(userSessionId!, { messages: newMessageHistory, summary });
+          return { message: 'Unfortunately, no products found. Would you like to try again with different filters?', sessionId: userSessionId };
+        }
+        return { products, sessionId: userSessionId };
       }
    
 

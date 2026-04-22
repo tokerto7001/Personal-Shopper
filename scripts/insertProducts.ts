@@ -21,6 +21,7 @@ const insertProducts = async () => {
 
   await insertProductsWithVector(productsWithVector);
   console.log('Products inserted successfully');
+  process.exit(0);
 };
 
 insertProducts().catch(console.error);

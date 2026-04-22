@@ -13,7 +13,7 @@ export const intentRecognizer = async (question: string, messageHistory: ChatCom
     ...messageHistory,
   ] as ChatCompletionMessageParam[];
 
-  const response = await createChatCompletion('gpt-4o-mini', messages);
+  const response = await createChatCompletion('gpt-4o-mini', messages, true);
   console.log('intent recognizer', response);
   try {
     const result = JSON.parse(response as string);

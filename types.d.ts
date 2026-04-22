@@ -23,4 +23,5 @@ export interface IIntentRecognizerResponse {
   filters: Record<string, string | number | string[]>;
   needs_clarification: boolean;
   clarifying_question: string | null;
+  search_query: string | null;
 }

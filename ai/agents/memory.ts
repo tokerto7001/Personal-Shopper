@@ -15,7 +15,7 @@ export const memorizationAgent = async (session: ISession | null, messageHistory
       ...messageHistory,
     ] as ChatCompletionMessageParam[];
     const contextSummary = await createChatCompletion('gpt-4o-mini', contextSummaryMessages);
-    summary = contextSummary as string;
+    summary = JSON.parse(contextSummary as string).summary;
     messageHistory = messageHistory.slice(-8);
   }
   return { summary, messageHistory };
