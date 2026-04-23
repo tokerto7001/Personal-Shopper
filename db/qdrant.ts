@@ -1,5 +1,6 @@
 import { QdrantClient } from '@qdrant/js-client-rest';
 import { IProductWithVector } from '../types';
+import { components } from '@qdrant/js-client-rest/dist/types/openapi/generated_schema';
 
 const qdrantClient = new QdrantClient({
   url: process.env.QDRANT_URL,
@@ -32,7 +33,7 @@ const insertProductsWithVector = async (products: IProductWithVector[]) => {
   });
 };
 
-const searchProducts = async (vector: number[], filters: Record<string, string | number | string[]>) => {
+const searchProducts = async (vector: number[], filters: Record<string, string | number | string[]>): Promise< (components["schemas"]["ScoredPoint"])[]> => {
   const response = await qdrantClient.query('products', {
     query: vector,
     ...(Object.keys(filters).length && { filter: filters }),
@@ -40,7 +41,6 @@ const searchProducts = async (vector: number[], filters: Record<string, string |
     with_payload: true,
     score_threshold: 0.40,
   })
-  console.log('searchProducts response', response);
   return response.points;
 };
 

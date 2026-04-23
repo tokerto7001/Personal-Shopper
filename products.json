@@ -1904,5 +1904,225 @@
       "nature"
     ],
     "image": "https://picsum.photos/seed/100/400/500"
+  },
+  {
+    "id": 101,
+    "title": "Women's Red Leather Ballet Flats",
+    "description": "Classic round-toe ballet flats in bold cherry red genuine leather, finished with a cushioned insole for all-day comfort. The elasticated topline ensures a secure fit, while the slim profile adds a pop of colour to both casual and office outfits. A statement wardrobe essential that pairs beautifully with jeans, dresses, and tailored trousers.",
+    "category": "womens_shoes",
+    "color": "red",
+    "price": 89.99,
+    "size": "7",
+    "tags": ["flats", "leather", "office", "casual", "gift for her", "everyday", "comfortable"],
+    "image": "https://picsum.photos/seed/101/400/500"
+  },
+  {
+    "id": 102,
+    "title": "Men's Red Suede Chelsea Boots",
+    "description": "A bold take on the timeless Chelsea boot, crafted from premium suede in a striking red tone. The elastic side panels allow easy slip-on wear, and the stacked leather heel adds subtle height. The crepe-style rubber sole provides cushioning for city walks. A statement piece that elevates any smart-casual look.",
+    "category": "mens_shoes",
+    "color": "red",
+    "price": 139.99,
+    "size": "10",
+    "tags": ["chelsea boots", "suede", "boots", "smart casual", "gift for him", "statement piece"],
+    "image": "https://picsum.photos/seed/102/400/500"
+  },
+  {
+    "id": 103,
+    "title": "Women's Red Patent Heeled Sandals",
+    "description": "Strappy heeled sandals in glossy red patent leather with an adjustable ankle strap buckle for a secure, customisable fit. The 7cm stiletto heel elongates the leg, and the cushioned footbed softens the impact during extended wear. Perfect for evening events, weddings, and cocktail parties.",
+    "category": "womens_shoes",
+    "color": "red",
+    "price": 109.99,
+    "size": "8",
+    "tags": ["heels", "sandals", "patent", "evening", "wedding guest", "gift for her", "date night"],
+    "image": "https://picsum.photos/seed/103/400/500"
+  },
+  {
+    "id": 104,
+    "title": "Unisex Red Canvas High-Top Sneakers",
+    "description": "A retro-inspired canvas high-top sneaker in fire-engine red with vulcanised rubber sole and metal eyelet lacing. The padded collar cushions the ankle, and the cotton canvas upper is breathable for warm-weather wear. An iconic streetwear silhouette that works for skaters, students, and casual dressers alike.",
+    "category": "unisex_shoes",
+    "color": "red",
+    "price": 64.99,
+    "size": "9",
+    "tags": ["sneakers", "high-top", "canvas", "streetwear", "casual", "unisex", "retro"],
+    "image": "https://picsum.photos/seed/104/400/500"
+  },
+  {
+    "id": 105,
+    "title": "Women's Red Ankle Strap Block Heels",
+    "description": "Elegant ankle strap heels in deep crimson faux leather, featuring a 6cm block heel for stability without sacrificing style. The padded footbed and non-slip rubber outsole make them comfortable enough for a full evening out. The ankle buckle adds a refined finishing touch to midi skirts and tailored wide-leg trousers.",
+    "category": "womens_shoes",
+    "color": "red",
+    "price": 99.99,
+    "size": "7",
+    "tags": ["heels", "ankle strap", "block heel", "evening", "office", "gift for her", "date night"],
+    "image": "https://picsum.photos/seed/105/400/500"
+  },
+  {
+    "id": 106,
+    "title": "Men's Red Athletic Running Shoes",
+    "description": "A high-performance road running shoe in a vivid red colourway with a lightweight engineered mesh upper and responsive dual-density foam midsole. The outsole features a herringbone tread pattern for reliable grip on roads and treadmills. Reflective detailing enhances visibility during early morning and evening runs.",
+    "category": "mens_shoes",
+    "color": "red",
+    "price": 114.99,
+    "size": "11",
+    "tags": ["running shoes", "fitness", "road running", "athletic", "gym", "gift for him", "sport"],
+    "image": "https://picsum.photos/seed/106/400/500"
+  },
+  {
+    "id": 107,
+    "title": "Women's Red Wedge Espadrilles",
+    "description": "Chic wedge espadrilles in woven red canvas with a natural jute-wrapped platform sole that adds 5cm of height. The lace-up ankle ties provide a secure fit, and the cushioned insole makes them comfortable for beach boardwalks, summer festivals, and outdoor dining. A warm-weather classic with a bold red update.",
+    "category": "womens_shoes",
+    "color": "red",
+    "price": 74.99,
+    "size": "8",
+    "tags": ["espadrilles", "wedge", "summer", "beach", "vacation", "gift for her", "festival"],
+    "image": "https://picsum.photos/seed/107/400/500"
+  },
+  {
+    "id": 108,
+    "title": "Unisex Red Slip-On Loafers",
+    "description": "Minimalist slip-on loafers in smooth red leather with a hand-stitched moccasin toe and flexible leather sole. The low-profile silhouette works equally well with chinos, shorts, or summer dresses. A polished yet effortless shoe that transitions seamlessly from office to weekend errands.",
+    "category": "unisex_shoes",
+    "color": "red",
+    "price": 79.99,
+    "size": "9",
+    "tags": ["loafers", "slip-on", "leather", "casual", "office", "unisex", "everyday"],
+    "image": "https://picsum.photos/seed/108/400/500"
+  },
+  {
+    "id": 109,
+    "title": "Women's Red Pointed-Toe Pumps",
+    "description": "Sleek pointed-toe court pumps in scarlet red full-grain leather with a 9cm stiletto heel. The elongated toe and clean lines create a powerful, confident silhouette that suits both boardroom presentations and evening galas. The suede lining wicks moisture and keeps feet comfortable throughout the day.",
+    "category": "womens_shoes",
+    "color": "red",
+    "price": 129.99,
+    "size": "7",
+    "tags": ["pumps", "heels", "pointed toe", "office", "formal", "gift for her", "classic", "leather"],
+    "image": "https://picsum.photos/seed/109/400/500"
+  },
+  {
+    "id": 110,
+    "title": "Men's Red Leather Casual Sneakers",
+    "description": "Low-profile leather sneakers in rich red with a clean, minimal design and a flexible rubber cupsole. The leather upper develops a natural patina over time, while the cushioned leather insole ensures all-day comfort. A versatile everyday sneaker that pairs with jeans, chinos, or casual shorts.",
+    "category": "mens_shoes",
+    "color": "red",
+    "price": 99.99,
+    "size": "10",
+    "tags": ["sneakers", "leather", "casual", "minimal", "everyday", "gift for him", "versatile"],
+    "image": "https://picsum.photos/seed/110/400/500"
+  },
+  {
+    "id": 111,
+    "title": "Men's Brown Leather Derby Shoes",
+    "description": "Handcrafted from full-grain calf leather in a rich tan brown, these open-lacing Derby shoes offer a slightly more relaxed formality than an Oxford while remaining perfectly office-appropriate. The leather sole with rubber toe and heel caps provides durability on city pavements. An investment in timeless British footwear.",
+    "category": "mens_shoes",
+    "color": "brown",
+    "price": 189.99,
+    "size": "10",
+    "tags": ["derby shoes", "leather", "formal", "office", "gift for him", "smart", "classic"],
+    "image": "https://picsum.photos/seed/111/400/500"
+  },
+  {
+    "id": 112,
+    "title": "Women's Brown Suede Knee-High Boots",
+    "description": "Tall knee-high boots in supple cognac suede with a 4cm block heel for comfortable all-day wear. The inside zip fastening and elasticated back gusset accommodate a range of calf widths, and the suede is treated with a water-repellent finish. A versatile autumn-winter boot that pairs with everything from mini skirts to straight-leg jeans.",
+    "category": "womens_shoes",
+    "color": "brown",
+    "price": 169.99,
+    "size": "8",
+    "tags": ["knee-high boots", "suede", "boots", "fall", "winter", "gift for her", "cognac"],
+    "image": "https://picsum.photos/seed/112/400/500"
+  },
+  {
+    "id": 113,
+    "title": "Men's Brown Chukka Boots",
+    "description": "Desert-inspired chukka boots in oiled nubuck leather with two-eyelet lacing and a crepe rubber sole that provides excellent cushioning on hard surfaces. The ankle-height construction is versatile enough to wear with both smart and casual outfits. The leather softens and moulds to your foot shape over time for a truly custom fit.",
+    "category": "mens_shoes",
+    "color": "brown",
+    "price": 144.99,
+    "size": "11",
+    "tags": ["chukka boots", "nubuck", "boots", "casual", "smart casual", "gift for him", "desert boots"],
+    "image": "https://picsum.photos/seed/113/400/500"
+  },
+  {
+    "id": 114,
+    "title": "Women's Brown Leather Moccasins",
+    "description": "Hand-stitched full-grain leather moccasins in warm chestnut brown with a shearling lining that keeps feet cosy from autumn through early spring. The flexible rubber sole is lightweight and grippy on indoor and outdoor surfaces. Ideal for weekend wear, home-to-café errands, and casual Fridays at the office.",
+    "category": "womens_shoes",
+    "color": "brown",
+    "price": 94.99,
+    "size": "7",
+    "tags": ["moccasins", "leather", "shearling", "casual", "comfortable", "gift for her", "weekend"],
+    "image": "https://picsum.photos/seed/114/400/500"
+  },
+  {
+    "id": 115,
+    "title": "Men's Brown Leather Penny Loafers",
+    "description": "Classic penny loafers in burnished dark brown leather with a genuine leather sole and heel. The hand-sewn moccasin construction gives them a supple, broken-in feel from day one, and the iconic penny slot adds a preppy nod to American collegiate style. Wear with no-show socks for a relaxed summer look or with tailored trousers year-round.",
+    "category": "mens_shoes",
+    "color": "brown",
+    "price": 154.99,
+    "size": "10",
+    "tags": ["loafers", "penny loafers", "leather", "preppy", "smart casual", "gift for him", "classic"],
+    "image": "https://picsum.photos/seed/115/400/500"
+  },
+  {
+    "id": 116,
+    "title": "Women's Brown Platform Sandals",
+    "description": "Chunky platform sandals in tan brown faux leather with adjustable buckle straps across the toe and ankle. The 5cm cork-wrapped platform adds height while keeping the foot nearly flat for comfortable all-day wear. A 70s-inspired silhouette that pairs with wide-leg trousers, flared jeans, and summer dresses.",
+    "category": "womens_shoes",
+    "color": "brown",
+    "price": 84.99,
+    "size": "8",
+    "tags": ["sandals", "platform", "summer", "casual", "retro", "gift for her", "fashion"],
+    "image": "https://picsum.photos/seed/116/400/500"
+  },
+  {
+    "id": 117,
+    "title": "Unisex Brown Desert Boots",
+    "description": "The definitive desert boot silhouette in soft tan suede with a natural crepe rubber sole that cushions every step. Low-cut with two-eyelet lacing, these boots have a clean, unfussy aesthetic that suits jeans, chinos, and casual trousers equally well. A wardrobe foundation piece worn by generations of style-conscious men and women.",
+    "category": "unisex_shoes",
+    "color": "brown",
+    "price": 119.99,
+    "size": "9",
+    "tags": ["desert boots", "suede", "casual", "unisex", "everyday", "classic", "gift"],
+    "image": "https://picsum.photos/seed/117/400/500"
+  },
+  {
+    "id": 118,
+    "title": "Men's Brown Leather Boat Shoes",
+    "description": "Traditional 360-degree lacing boat shoes in oiled full-grain brown leather with the iconic non-marking siped rubber sole that provides grip on wet boat decks — and looks equally at home on city streets. The hand-sewn moccasin construction breaks in quickly and the leather develops a beautiful patina with wear.",
+    "category": "mens_shoes",
+    "color": "brown",
+    "price": 124.99,
+    "size": "10",
+    "tags": ["boat shoes", "leather", "nautical", "summer", "casual", "gift for him", "preppy"],
+    "image": "https://picsum.photos/seed/118/400/500"
+  },
+  {
+    "id": 119,
+    "title": "Women's Brown Heeled Ankle Boots",
+    "description": "Sleek ankle boots in cognac leather with a pointed toe and a 7cm stiletto heel that adds elegance to any outfit. The inside zip makes them easy to put on, and the leather-lined interior keeps feet comfortable throughout the day. A versatile boot that bridges the gap between casual and formal dressing effortlessly.",
+    "category": "womens_shoes",
+    "color": "brown",
+    "price": 134.99,
+    "size": "7",
+    "tags": ["ankle boots", "heels", "leather", "pointed toe", "fall", "winter", "gift for her", "office"],
+    "image": "https://picsum.photos/seed/119/400/500"
+  },
+  {
+    "id": 120,
+    "title": "Men's Brown Wingtip Brogues",
+    "description": "Full-grain leather wingtip brogues in rich mahogany brown with hand-punched brogue detailing along the toe cap, seams, and heel counter. The Goodyear welt construction allows the soles to be replaced, making these a long-term footwear investment. Smart enough for formal occasions, characterful enough for smart-casual Fridays.",
+    "category": "mens_shoes",
+    "color": "brown",
+    "price": 214.99,
+    "size": "10",
+    "tags": ["brogues", "wingtip", "leather", "formal", "smart casual", "gift for him", "classic", "investment"],
+    "image": "https://picsum.photos/seed/120/400/500"
   }
 ]

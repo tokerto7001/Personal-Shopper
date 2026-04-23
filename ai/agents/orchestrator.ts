@@ -4,8 +4,9 @@ import { orchestratorPrompt, orchestratorPromptWithSession } from "./prompts";
 import { getSession, searchProducts, setSession } from "../../db";
 import { randomUUID } from 'crypto';
 import { memorizationAgent } from "./memory";
-import { ISession } from "../../types";
+import { IProduct, ISession } from "../../types";
 import { intentRecognizer } from "./intentRecognizer";
+import { productsReviewer } from "./productsReviewer";
 
 export const orchestrator = async (question: string, sessionId?: string) => {
   let messageHistory: ChatCompletionMessageParam[] = [];
@@ -22,7 +23,7 @@ export const orchestrator = async (question: string, sessionId?: string) => {
       role: 'system',
       content: systemPrompt,
     },
-    ...(session ? session.messages.filter(message => message.role !== 'user') : []),
+    ...(session ? session.messages.filter(message => message.role === 'user') : []),
     {
       role: 'user',
       content: question,
@@ -37,7 +38,6 @@ export const orchestrator = async (question: string, sessionId?: string) => {
   // orchestrator response
   const response = await createChatCompletion('gpt-4o-mini', messages, true);
 
-  console.log('orchestrator response', response, messages);
   try {
     const result = JSON.parse(response as string);
     if (!result.message && result.call_intent_recognizer == undefined) {
@@ -103,7 +103,6 @@ export const orchestrator = async (question: string, sessionId?: string) => {
           }
         });
 
-        console.dir(qdrantFilters, { depth: null });
         const products = await searchProducts(queryVector[0], qdrantFilters);
         if(!products.length) {
           messageHistory.push({
@@ -115,7 +114,21 @@ export const orchestrator = async (question: string, sessionId?: string) => {
           await setSession(userSessionId!, { messages: newMessageHistory, summary });
           return { message: 'Unfortunately, no products found. Would you like to try again with different filters?', sessionId: userSessionId };
         }
-        return { products, sessionId: userSessionId };
+
+        const productsReviewerResponse = await productsReviewer(products, messageHistory);
+        const reviewedProducts = products.filter((product) => productsReviewerResponse.includes(product.id)).map((p) => p.payload as unknown as IProduct);
+        const message = productsReviewerResponse.length ?
+        `Found ${productsReviewerResponse.length} product(s): ${reviewedProducts.map((p: IProduct) => `${p.title} ($${p.price})`).join(', ')}.` :
+        'Unfortunately, no products found. Would you like to try again with different filters?';
+     
+        messageHistory.push({
+          role: 'assistant',
+          content: message,
+        });
+      
+        const { summary, messageHistory: newMessageHistory } = await memorizationAgent(session, messageHistory);
+        await setSession(userSessionId!, { messages: newMessageHistory, summary })
+        return { products: reviewedProducts, sessionId: userSessionId };
       }
    
 
