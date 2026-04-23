@@ -25,11 +25,18 @@ export const intentRecognizer = async (question: string, messageHistory: ChatCom
     }
     if (typeof result.clarifying_question !== 'string' && result.clarifying_question !== null) {
       throw new Error('Clarifying question must be a string or null');
-  }
-
+    }
+    if (typeof result.search_query !== 'string' && result.search_query !== null) {
+      throw new Error('Search query must be a string or null');
+    }
   return result as IIntentRecognizerResponse;
   } catch (error) {
     console.error(error);
-    throw new Error('Invalid response format');
+    return {
+      filters: {},
+      needs_clarification: true,
+      clarifying_question: 'I\'m sorry, I didn\'t understand your question. Please try again.',
+      search_query: null,
+    } as IIntentRecognizerResponse;
   }
 }

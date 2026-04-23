@@ -135,7 +135,7 @@ export const orchestrator = async (question: string, sessionId?: string) => {
     }
   } catch (error) {
     console.error(error);
-    throw new Error('Invalid response format');
+    return { message: 'I\'m sorry, I didn\'t understand your question. Please try again.', sessionId: userSessionId };
   }
   
 }
