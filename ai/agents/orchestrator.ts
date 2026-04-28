@@ -1,5 +1,4 @@
-import { ChatCompletionMessageParam } from "openai/resources/chat/completions";
-import { createChatCompletion, createEmbedding } from "..";
+import { createResponse, createEmbedding } from "..";
 import { orchestratorPrompt, orchestratorPromptWithSession } from "./prompts";
 import { getSession, searchProducts, setSession } from "../../db";
 import { randomUUID } from 'crypto';
@@ -7,9 +6,10 @@ import { memorizationAgent } from "./memory";
 import { IProduct, ISession } from "../../types";
 import { intentRecognizer } from "./intentRecognizer";
 import { productsReviewer } from "./productsReviewer";
+import { ResponseInput } from "openai/resources/responses/responses";
 
 export const orchestrator = async (question: string, sessionId?: string) => {
-  let messageHistory: ChatCompletionMessageParam[] = [];
+  let messageHistory: ResponseInput = [];
   const session: ISession | null = sessionId ? await getSession(sessionId) : null;
   let userSessionId = session ? sessionId : randomUUID();
 
@@ -20,7 +20,7 @@ export const orchestrator = async (question: string, sessionId?: string) => {
   const systemPrompt = session ? orchestratorPrompt + '\n' + orchestratorPromptWithSession(session?.summary || '') : orchestratorPrompt;
   const messages = [
     {
-      role: 'system',
+      role: 'developer',
       content: systemPrompt,
     },
     ...(session ? session.messages.filter(message => message.role === 'user') : []),
@@ -36,7 +36,7 @@ export const orchestrator = async (question: string, sessionId?: string) => {
   });
 
   // orchestrator response
-  const response = await createChatCompletion('gpt-4o-mini', messages, true);
+  const response = await createResponse('gpt-4o-mini', messages, true);
 
   try {
     const result = JSON.parse(response as string);
@@ -62,7 +62,7 @@ export const orchestrator = async (question: string, sessionId?: string) => {
       // if the user has a shopping intent, call the intent recognizer agent
       const { filters, needs_clarification, clarifying_question, search_query} = await intentRecognizer(question, messageHistory);
       // if the user needs clarification, ask the clarifying question
-      if(needs_clarification) {
+      if(needs_clarification && clarifying_question) {
         messageHistory.push({
           role: 'assistant',
           content: clarifying_question,

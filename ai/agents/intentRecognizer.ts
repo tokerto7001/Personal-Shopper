@@ -1,9 +1,9 @@
-import { ChatCompletionMessageParam } from "openai/resources/index";
 import { intentRecognizerPrompt } from "./prompts";
-import { createChatCompletion } from "..";
-import { IIntentRecognizerResponse } from "../../types";
+import { createResponse } from "..";
+import { IIntentRecognizerResponse } from "../../types";  
+import { ResponseInput } from "openai/resources/responses/responses";
 
-export const intentRecognizer = async (question: string, messageHistory: ChatCompletionMessageParam[], ) => {
+export const intentRecognizer = async (question: string, messageHistory: ResponseInput) => {
   console.log('intent recognizer called');
   const messages = [
     {
@@ -11,9 +11,9 @@ export const intentRecognizer = async (question: string, messageHistory: ChatCom
       content: intentRecognizerPrompt,
     },
     ...messageHistory,
-  ] as ChatCompletionMessageParam[];
+  ] as ResponseInput;
 
-  const response = await createChatCompletion('gpt-4o-mini', messages, true);
+  const response = await createResponse('gpt-4o-mini', messages, true);
   console.log('intent recognizer', response);
   try {
     const result = JSON.parse(response as string);

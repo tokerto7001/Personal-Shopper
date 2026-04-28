@@ -1,5 +1,5 @@
 import { OpenAI } from 'openai';
-import { ChatCompletionMessageParam } from 'openai/resources/chat/completions';
+import { ResponseInput } from 'openai/resources/responses/responses';
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
@@ -13,11 +13,11 @@ export const createEmbedding = async (inputs: string[]) => {
   return response.data.sort((a, b) => a.index - b.index).map((item) => item.embedding);
 };
 
-export const createChatCompletion = async (model: string, messages: ChatCompletionMessageParam[], jsonMode = false) => {
-  const response = await openai.chat.completions.create({
+export const createResponse = async (model: string, messages: ResponseInput, jsonMode = true) => {
+  const response = await openai.responses.create({
     model,
-    messages,
-    ...(jsonMode && { response_format: { type: 'json_object' } }),
+    input: messages,
+    ...(jsonMode && { text: { format: { type: 'json_object' } } }),
   });
-  return response.choices[0].message.content;
+  return response.output_text;
 };
